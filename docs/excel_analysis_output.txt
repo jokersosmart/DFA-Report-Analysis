@@ -1,0 +1,1295 @@
+/usr/local/lib/python3.11/dist-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+================================================================================
+Workbook: RD-03-009-01.ADFA報告DFAReport.xlsx
+Total sheets: 15
+Sheet names: ['Revision History for Template', 'Cover', 'Revision History of DFA', 'References', 'Abbreviations', 'Definitions', 'Methodology', 'Flowchart', 'Block-Diagram', 'Cut Set based Analysis', 'Block based Analysis', 'CCF Calc. On-Chip Red.', 'CCF Calc. Logic', 'ISO 26262-9 CH.7', 'DFI examples']
+================================================================================
+
+================================================================================
+Sheet: Revision History for Template
+  Dimensions: A1:D645
+  Max row: 645, Max col: 4
+  Sheet state: visible
+  Merged cells (1):
+    A1:D2
+  Images (1):
+    Image 0: size=(384x104)
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=DFA報告
+DFA Report
+    Row 4: D4=RD-03-009-01
+    Row 5: A5=Rev.
+版次 | B5=Effective Date
+生效日期 | C5=Revision History
+改版履歷 | D5=Written By
+撰寫者
+    Row 6: A6=A | B6=2025-10-18 00:00:00 | C6=New added | D6=Mike Rao
+
+================================================================================
+Sheet: Cover
+  Dimensions: A1:XY101
+  Max row: 101, Max col: 649
+  Sheet state: hidden
+  Merged cells (24):
+    D1:E1
+    C26:D26
+    B1:C8
+    A1:A8
+    D6:E6
+    C29:D29
+    H2:L9
+    D2:E2
+    A25:E25
+    D7:E7
+    C13:E13
+    C27:D27
+    A47:E47
+    B11:E11
+    D4:E4
+    D3:E3
+    D8:E8
+    A52:E52
+    D5:E5
+    A13:B13
+    C28:D28
+    A31:E31
+    B10:E10
+    A9:E9
+  Images (1):
+    Image 0: size=(231x152)
+  Data Validations (1):
+    C15:E23: type=list, formula1=AttendAbsent
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: B1=DFA 
+Dependant failure analysis
+for ICs and IPs
+
+CONFIDENTIAL | D1=0.1
+    Row 2: D2=Analysis Version | H2=GENERAL HINTS FOR THIS TEMPLATE: 
+- Please fill only green cells.
+- Select adequate content in drop down cells.
+- Don't change blue cells (fixed content or formulas inside).
+- If possible please avoid copy & paste as well as inserting or deleting of rows or columns (formulas could be affected).
+- Don't use cut & paste function in whole spreadsheet.
+- Fill content complete and comprehensible.
+- Please read comments carefully.
+    Row 3: D3=2020-05-28 00:00:00 | O3=Attendant | XY3=Erstellt von René Hankammer / SGS ©2019
+    Row 4: D4=Version Date | O4=Absent
+    Row 5: D5=0.3
+    Row 6: D6=Template Version
+    Row 7: D7=draft
+    Row 8: D8=Status
+    Row 9: A9=
+Notice about reporting requirements:
+The user of this document is obliged to inform himself/herself about the currently applicable version of the standard.
+    Row 10: A10=Project designation: | B10=DFA Template
+    Row 11: A11=Customer / Order Number: | B11=Company A
+    Row 13: A13=1.        Participants (DFA Workshop) | C13=Date of Workshop
+    Row 14: A14=Name | B14=Department / Company | C14=DD.MM.YY | D14=DD.MM.YY | E14=DD.MM.YY
+    Row 15: A15=John1 | B15=RD/company A
+    Row 25: A25=2.        Quality Assurance (DFA)
+    Row 26: A26=Name | B26=Department / Company | C26=Role | E26=Date
+    Row 27: A27=Mr. A | C27=Author
+    Row 28: A28=Mr. R | C28=Reviewer
+    Row 29: A29=Mr. P | C29=Approver
+    Row 31: A31=3.        Change Record (DFA)
+    Row 32: A32=Version | B32=Change Description | C32=State | D32=Date | E32=Author
+    Row 33: A33=0.1 | B33=first draft | C33=draft | D33=2020-05-21 00:00:00 | E33=Mr. A
+    Row 34: A34=0.2 | B34=Update block diagram | C34=draft | D34=2020-05-28 00:00:00 | E34=Mr. A
+    Row 47: A47=4.        Quality Assurance (Template)
+    Row 48: A48=Name | B48=Department / Company | C48=Role | D48=Templ Ver | E48=Date
+    Row 49: A49=R. Hankammer | B49=GCC Functional Safety / SGS-TÜV Saar GmbH | C49=Author | D49=0.2 | E49=2020-01-14 00:00:00
+    Row 50: A50=W. Ruf | B50=GCC Functional Safety / SGS-TÜV Saar GmbH | C50=Reviewer | D50=0.2 | E50=2020-01-14 00:00:00
+    Row 52: A52=5.        Change Record (Template)
+    Row 53: A53=Version | B53=Change Description | C53=State | D53=Date | E53=Author
+    Row 54: A54=0.1 | B54=Initial version (based on DFA template version 0.6 - DFA_Template_v0_6.xlsx). | C54=Draft | D54=2016-10-24 00:00:00 | E54=W. Ruf
+    Row 55: A55=0.2 | B55=Update to current SGS look-and-feel, new sheet 'Cut Set based Analysis', redesigned sheet 'Block based Analysis' | C55=Draft | D55=2020-01-14 00:00:00 | E55=R. Hankammer
+    Row 56: A56=0.3 | B56=Update of "Block based Analysis" sheet. Implementation ok ISO 26262-11 known DFI as suggestions/examples. Adding of measure status, measure related to information | C56=Draft | D56=2020-02-10 00:00:00 | E56=R. Pason
+
+================================================================================
+Sheet: Revision History of DFA
+  Dimensions: A1:E204
+  Max row: 204, Max col: 5
+  Sheet state: visible
+  Merged cells (150):
+    B91:C91
+    B100:C100
+    B141:C141
+    B115:C115
+    B22:C22
+    B93:C93
+    B149:C149
+    B31:C31
+    B102:C102
+    B12:C12
+    B77:C77
+    B21:C21
+    B86:C86
+    B151:C151
+    B67:C67
+    B61:C61
+    B101:C101
+    B14:C14
+    B13:C13
+    B69:C69
+    B38:C38
+    B78:C78
+    B112:C112
+    B127:C127
+    B40:C40
+    B49:C49
+    B55:C55
+    B24:C24
+    B64:C64
+    B33:C33
+    B104:C104
+    B51:C51
+    B32:C32
+    B63:C63
+    B26:C26
+    B41:C41
+    B35:C35
+    B106:C106
+    B129:C129
+    B138:C138
+    B16:C16
+    B25:C25
+    B90:C90
+    B66:C66
+    B131:C131
+    B140:C140
+    B27:C27
+    B18:C18
+    B130:C130
+    B11:C11
+    B117:C117
+    B3:E3
+    B132:C132
+    B53:C53
+    B119:C119
+    B116:C116
+    B29:C29
+    B103:C103
+    B37:C37
+    B84:C84
+    B118:C118
+    B6:C6
+    B15:C15
+    B142:C142
+    B80:C80
+    B95:C95
+    B89:C89
+    B79:C79
+    B144:C144
+    B97:C97
+    B54:C54
+    B125:C125
+    B7:C7
+    B72:C72
+    B134:C134
+    B81:C81
+    B121:C121
+    B122:C122
+    B96:C96
+    B71:C71
+    B56:C56
+    B105:C105
+    B43:C43
+    B58:C58
+    B52:C52
+    B120:C120
+    B98:C98
+    B42:C42
+    B107:C107
+    B60:C60
+    B17:C17
+    B88:C88
+    B57:C57
+    B148:C148
+    B82:C82
+    A1:D1
+    B44:C44
+    B19:C19
+    B34:C34
+    B146:C146
+    B28:C28
+    B99:C99
+    B108:C108
+    B9:C9
+    B83:C83
+    B143:C143
+    B92:C92
+    B30:C30
+    B124:C124
+    B5:C5
+    B133:C133
+    B76:C76
+    B20:C20
+    B45:C45
+    B85:C85
+    B94:C94
+    B126:C126
+    B75:C75
+    B135:C135
+    B109:C109
+    B47:C47
+    B62:C62
+    B59:C59
+    B150:C150
+    B46:C46
+    B152:C152
+    B39:C39
+    B70:C70
+    B48:C48
+    B136:C136
+    B111:C111
+    B145:C145
+    B23:C23
+    B8:C8
+    B73:C73
+    B87:C87
+    B147:C147
+    B128:C128
+    B10:C10
+    B137:C137
+    B65:C65
+    B74:C74
+    B68:C68
+    B139:C139
+    B114:C114
+    B123:C123
+    B36:C36
+    B50:C50
+    B110:C110
+    B113:C113
+  Images (1):
+    Image 0: size=(377x101)
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=DFA報告
+DFA Report
+    Row 3: A3=專案名稱
+Project Name
+    Row 5: A5=日期
+Date | B5=調整紀錄
+Modified Record | D5=版本
+Version | E5=作者
+Author
+
+================================================================================
+Sheet: References
+  Dimensions: A1:B32
+  Max row: 32, Max col: 2
+  Sheet state: visible
+  Merged cells (1):
+    A1:B1
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=References
+    Row 2: A2=Ref. No | B2=Standard / Document Name
+    Row 3: A3=1 | B3=DIN EN 60812; Analysis techniques for system reliability-procedure for FMEA; 2006-11
+    Row 4: A4=2 | B4=IEC TR 62380; Reliability data handbook – Universal model for reliability prediction of electronics components, PCBs and equipment; 2004-08
+    Row 5: A5=3 | B5=DIN EN 61709 Electric components - Reliability - Reference conditions for failure rates and stress models for conversions (IEC 61709:2011) German Version EN 61709:2011
+    Row 6: A6=4 | B6=ISO 26262:2011 Road vehicles - Functional safety
+    Row 7: A7=5 | B7=ISO 26262:2018 second edition - Road vehicles - Functional safety
+    Row 8: A8=6 | B8=SN 29500 2004-2010 Failure rates of components
+    Row 9: A9=7 | B9=IEC 61508 Ed. 2.0 2010-04 Functional safety of electrical/electronic/programmable electronic safety-related systems
+    Row 10: A10=8 | B10=IEC 61709 Edition 3.0 2017 Electric components – Reliability – Reference conditions for failure rates and stress models for conversion
+    Row 11: A11=9
+    Row 12: A12=10
+    Row 13: A13=11
+    Row 14: A14=12
+    Row 15: A15=13
+    Row 16: A16=14
+    Row 17: A17=15
+    Row 18: A18=16
+    Row 19: A19=17
+    Row 20: A20=18
+    Row 21: A21=19
+    Row 22: A22=20
+    Row 23: A23=21
+    Row 24: A24=22
+    Row 25: A25=23
+    Row 26: A26=24
+    Row 27: A27=25
+    Row 28: A28=26
+    Row 29: A29=27
+    Row 30: A30=28
+    Row 31: A31=29
+    Row 32: A32=30
+
+================================================================================
+Sheet: Abbreviations
+  Dimensions: A1:B274
+  Max row: 274, Max col: 2
+  Sheet state: visible
+  Merged cells (1):
+    A1:B1
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=Abbreviations
+    Row 2: A2=Acronym | B2=Term
+    Row 3: A3=ACC | B3=Adaptive Cruise Control
+    Row 4: A4=ADC | B4=Analog Digital Converter
+    Row 5: A5=AEC | B5=Automotive Electronics Council
+    Row 6: A6=AER | B6=Advanced Error Reporting
+    Row 7: A7=AHB | B7=Advanced High-performance Bus
+    Row 8: A8=AIS | B8=Abbreviated Injury Scale
+    Row 9: A9=ALU | B9=Arithmetic Logic Unit
+    Row 10: A10=AMBA | B10=Advanced Microcontroller Bus Architecture
+    Row 11: A11=APB | B11=Advanced Peripheral Bus
+    Row 12: A12=APEX | B12=Application specific extension
+    Row 13: A13=ASF | B13=Automotive Safety Features
+    Row 14: A14=ASIC | B14=Application-Specific Integrated Circuit
+    Row 15: A15=ASIL | B15=Automotive Safety Integrity Level
+    Row 16: A16=ASIL | B16=Automotive Safety Integrity Levels – QM, A, B, C, D
+    Row 17: A17=ATB | B17=Analog test bus
+    Row 18: A18=ATPG | B18=Automatic Test Pattern Generation
+    Row 19: A19=AXI | B19=Advanced eXtensible Interface
+    Row 20: A20=BB | B20=Body Builder
+    Row 21: A21=BFR | B21=Base Failure Rate
+    Row 22: A22=BIST | B22=Built-in self test
+    Row 23: A23=BOM | B23=Bill Of Matrial
+    Row 24: A24=Byte | B24=An 8-bit data item
+    Row 25: A25=CAN | B25=Controller Area Network
+    Row 26: A26=CCF | B26=Common Cause Failure
+    Row 27: A27=CCM | B27=Closely Coupled Memory
+    Row 28: A28=CCP | B28=Controllability Classification Panel
+    Row 29: A29=CDB | B29=Configuration and diagnostics bus
+    Row 30: A30=CDC | B30=Clock Domain Crossing
+    Row 31: A31=CDM | B31=Charged Device Model ESD event
+    Row 32: A32=COTS | B32=Commercial Off The Shelf
+    Row 33: A33=CPU | B33=Central Processing Unit
+    Row 34: A34=CRC | B34=Cyclic Redundancy Check
+    Row 35: A35=DAC | B35=Direct Access Controller
+    Row 36: A36=DC | B36=Diagnostic Coverage
+    Row 37: A37=DC | B37=Design Compiler
+    Row 38: A38=Dcache | B38=Data Cache
+    Row 39: A39=DDR | B39=Double Data Rate
+    Row 40: A40=DDR3 | B40=JEDEC-specified interface Double Data Rate 3
+    Row 41: A41=DDR4 | B41=JEDEC-specified interface Double Data Rate 4
+    Row 42: A42=DFA | B42=Dependent Failure Analysis
+    Row 43: A43=DFI | B43=Dependent Failure Initiator
+    Row 44: A44=DFI | B44=DDR PHY Interface
+    Row 45: A45=DFT | B45=Design For Test
+    Row 46: A46=DIA | B46=Development Interface Agreement
+    Row 47: A47=DLL | B47=Delay Line
+    Row 48: A48=DMA | B48=Direct Memory Access
+    Row 49: A49=DMOS | B49=Double Diffused Metal Oxide Semiconductor (HV MOS)
+    Row 50: A50=DRAM | B50=Data RAM
+    Row 51: A51=DRAM | B51=Dynamic Random Access Memory
+    Row 52: A52=DSP | B52=Digital Signal Processor
+    Row 53: A53=Dtag | B53=Data Tag
+    Row 54: A54=DWC | B54=DesignWare Core
+    Row 55: A55=E/E system | B55=Electrical and/or Electronic system
+    Row 56: A56=ECC | B56=Error Correction Code
+    Row 57: A57=ECCAP | B57=Address parity protection within Inline ECC
+    Row 58: A58=ECRC | B58=End to end CRC
+    Row 59: A59=ECU | B59=Electronic Control Unit
+    Row 60: A60=EDC | B60=Error Detection and Correction
+    Row 61: A61=EMC | B61=Electromagnetic Compatibility
+    Row 62: A62=EMI | B62=Electromagnetic Interference
+    Row 63: A63=EOS | B63=Electrical Overstress
+    Row 64: A64=EOTI | B64=Emergency Operation Time Interval
+    Row 65: A65=EOTTI | B65=Emergency Operation Tolerance Time Interval
+    Row 66: A66=ERI | B66=External Register Interface
+    Row 67: A67=ESC | B67=Electronic Stability Control
+    Row 68: A68=ESD | B68=Electrostatic Discharge
+    Row 69: A69=ETA | B69=Event Tree Analysis
+    Row 70: A70=EVR | B70=Embedded Voltage Regulator
+    Row 71: A71=FCS | B71=Frame Check Sequence
+    Row 72: A72=FDTI | B72=Fault Detection Time Interval
+    Row 73: A73=FEC | B73=Forward Error Correction
+    Row 74: A74=FET | B74=Field Effect Transistor
+    Row 75: A75=FHTI | B75=Fault Handling Time Interval
+    Row 76: A76=FIFO | B76=First In First Out
+    Row 77: A77=FIT | B77=Failures In Time
+    Row 78: A78=FM | B78=Failure Mode
+    Row 79: A79=FMC | B79=Failure Mode Coverage
+    Row 80: A80=FMEA | B80=Failure Mode and Effects Analysis
+    Row 81: A81=FPGA | B81=Field Programmable Gate Array
+    Row 82: A82=FRTI | B82=Fault Reaction Time Interval
+    Row 83: A83=FTA | B83=Fault Tree Analysis
+    Row 84: A84=FTTI | B84=Fault Tolerant Time Interval
+    Row 85: A85=Gbps | B85=Giga bit per second
+    Row 86: A86=GDS, GDSII, GDS2 | B86=Graphic Database System, industry standard for data exchange of IC layout
+    Row 87: A87=GEM | B87=Gigabit Ethernet MAC
+    Row 88: A88=GPU | B88=Graphics Processing Unit
+    Row 89: A89=HARA | B89=Hazard Analysis and Risk Assessment
+    Row 90: A90=HAZOP | B90=HAZard and Operability analysis
+    Row 91: A91=HBM | B91=Human Body Model ESD event
+    Row 92: A92=HDL | B92=Hardware Description Language
+    Row 93: A93=HIF | B93=Host Interface
+    Row 94: A94=HLA | B94=High Level Architecture
+    Row 95: A95=HS/LS | B95=High Side / Low Side
+    Row 96: A96=HSI | B96=Hardware-Software Interface
+    Row 97: A97=HW | B97=Hardware
+    Row 98: A98=I/O | B98=Input – Output
+    Row 99: A99=IC | B99=Integrated Circuit
+    Row 100: A100=Icache | B100=Instruction Cache
+
+================================================================================
+Sheet: Definitions
+  Dimensions: A1:E55
+  Max row: 55, Max col: 5
+  Sheet state: visible
+  Merged cells (1):
+    A1:D1
+  Images (3):
+    Image 0: size=(1139x682)
+    Image 1: size=(567x219)
+    Image 2: size=(353x220)
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=Definitions according to ISO 26262
+    Row 2: A2=No. | B2=Term | C2=Description | D2=Figure
+    Row 3: A3=3.3 | B3=ASIL decomposition | C3=apportioning of redundant safety (3.132) requirements to elements (3.41), with sufficient independence (3.78), conducing to the same safety goal (3.139), with the objective of reducing the ASIL (3.6) of the redundant safety (3.132) requirements that are allocated to the corresponding elements (3.41)
+Note 1 to entry: ASIL decomposition is a basis for methods of ASIL (3.6) tailoring during the design process (defined as requirements decomposition with respect to ASIL (3.6) tailoring in ISO 26262-9).
+Note 2 to entry: ASIL Decomposition does not apply to random hardware failure requirements per ISO 26262-9:2018.
+Note 3 to entry: Reducing the ASIL (3.6) of the redundant safety (3.132) requirements has some exclusions, e.g. confirmation measures (3.23) remain at the level of the safety goal (3.139).
+    Row 4: A4=3.8 | B4=Base Failure Rate
+BFR | C4=failure rate (3.53) of a hardware element (3.41) in a given application use case used as an input to safety (3.132) analyses
+    Row 5: A5=3.17 | B5=cascading failure | C5=failure (3.50) of an element (3.41) of an item (3.84) resulting from a root cause (inside or outside of the element ( 3.41)) and then causing a failure of another element (3.41) or elements (3.41) of the same or different item (3.84)
+Note to entry: Cascading failures are dependent failures (3.29) that could be one of the possible root causes of a common cause failure (3.18).
+    Row 6: A6=3.18 | B6=common cause failure | C6=failure (3.50) of two or more elements (3.41) of an item (3.84) resulting directly from a single specific event or root cause which is either internal or external to all of these elements (3.41)
+Note to entry: Common cause failures are dependent failures (3.29) that are not cascading failures (3.17). See Figure 3.
+    Row 7: A7=3.19 | B7=Common Mode Failure
+CMF | C7=case of CCF (3.18) in which multiple elements (3.41) fail in the same manner
+Note to entry: Failure (3.50) in the same manner does not necessarily mean that they need to fail exactly the same. How close the failure modes (3.51) need to be in order to be classified as common mode failure depends on the context
+EXAMPLE 1 A system (3.163) has two temperature sensors which are compared with each other. If the difference between the two temperature sensors is larger than or equal to 5°C it is handled as a fault (3.54) and the system (3.163) is switched into a safe state (3.131). A common mode failure lets both temperature sensors fail in such a way that the difference between the two sensors is smaller than 5°C and therefore is not detected.
+EXAMPLE 2 In a CPU lockstep architecture (3.1) where the outputs of both CPUs is compared cycle by cycle, both CPUs need to fail exactly the same way in order for the failure (3.50) to go undetected. In this context, a common mode failure lets both CPU fail exactly the same way.
+EXAMPLE 3 An over voltage failure (3.50) due to lots of parts not meeting their specification for over voltage is a common mode failure.
+    Row 8: A8=3.21 | B8=component | C8=non-system level element (3.41) that is logically or technically separable and is comprised of more than one hardware part (3.71) or one or more software units (3.159)
+EXAMPLE A microcontroller
+Note to entry: A component is a part of a system (3.163).
+    Row 9: A9=3.26 | B9=coupling factors | C9=common characteristic or relationship of elements (3.41) that leads to a dependence in their failures (3.50)
+    Row 10: A10=3.29 | B10=dependent failures | C10=failures (3.50) that are not statistically independent, i.e. the probability of the combined occurrence of the failures (3.50) is not equal to the product of the probabilities of occurrence of all considered independent failures (3.50)
+Note 1 to entry: Dependent failures can manifest themselves simultaneously, or within a sufficiently short time interval, to have the effect of simultaneous failures (3.50).
+Note 2 to entry: Dependent failures include common cause failures (3.18) and cascading failures (3.17).
+Note 3 to entry: Whether a given failure (3.50) is a cascading failure (3.17) or a common cause failure (3.18) may depend on the hierarchical structure of the elements (3.41).
+Note 4 to entry: Whether a given failure (3.50) is a cascading failure (3.17) or a common cause failure (3.18) may depend on the temporal behaviour of the elements (3.41).
+Note 5 to entry: Dependent failures can include software failures (3.50) even if the probability of the failure (3.50) is not calculated.
+    Row 11: A11=3.31 | B11=detected fault | C11=fault (3.54) whose presence is detected within a prescribed time by a safety mechanism (3.142)
+Note to entry: The prescribed time can be the fault detection time interval (3.55) or the multiple-point fault detection time interval (3.98).
+    Row 12: A12=3.33 | B12=diagnostic coverage | C12=percentage of the failure rate (3.53) of a hardware element (3.41), or percentage of the failure rate (3.53) of a failure mode (3.51) of a hardware element (3.41) that is detected or controlled by the implemented safety mechanism (3.142)
+Note 1 to entry: Diagnostic coverage can be assessed with regard to residual faults (3.125) or with regard to latent multiple-point faults (3.97) that might occur in a hardware element (3.41).
+Note 2 to entry: Safety mechanisms (3.142) implemented at different levels in the architecture (3.1) can be considered.
+Note 3 to entry: Except when it is explicitly mentioned, the proportion of safe faults (3.130) of a safety-related hardware element (3.41) is not considered when determining the diagnostic coverage of the safety mechanism (3.142).
+    Row 13: A13=3.37 | B13=diversity | C13=different solutions satisfying the same requirement, with the goal of achieving independence (3.78)
+Note 1 to entry: Diversity does not guarantee independence (3.78), but can deal with certain types of common cause failures (3.18).
+Note 2 to entry: Diversity can be a technical solution (diverse hardware components (3.21), diverse SW components (3.21)) or a technical means (e.g. diverse compiler) to apply.
+Note 3 to entry: Diversity is one of a way to realize of redundancy (3.122).
+EXAMPLE Diverse programming; diverse hardware.
+    Row 14: A14=3.38 | B14=dual-point failure | C14=failure (3.50) resulting from the combination of two independent hardware faults (3.54) that leads directly to the violation of a safety goal (3.139)
+Note 1 to entry: Dual-point failures are multiple-point failures (3.96) of order 2.
+Note 2 to entry: Dual-point failures that are addressed in the ISO 26262 series of standards include those where one fault (3.54) affects a safety-related element (3.144) and another fault (3.54) affects the corresponding safety mechanism (3.142) intended to achieve or maintain a safe state (3.131).
+    Row 15: A15=3.39 | B15=dual-point fault | C15=individual fault (3.54) that, in combination with another independent fault (3.54), leads to a dual-point failure (3.38)
+Note 1 to entry: A dual-point fault can only be recognized after the identification of a dual-point failure (3.38), e.g. from cut set analysis of a fault tree.
+Note 2 to entry: See also multiple-point fault (3.97).
+    Row 16: A16=3.41 | B16=element | C16=system (3.163), components (3.21) (hardware or software), hardware parts (3.71), or software units (3.159)
+Note 1 to entry: When “software element” or “hardware element” is used, this phrase denotes an element of software only or an element of hardware only, respectively.
+Note 2 to entry: An element may also be a SEooC (3.138).
+    Row 17: A17=3.46 | B17=error | C17=discrepancy between a computed, observed or measured value or condition, and the true, specified or theoretically correct value or condition
+Note to entry: An error can arise as a result of a fault (3.54) within the system (3.163) or component (3.21) being considered.
+    Row 18: A18=3.49 | B18=external measure | C18=measure that is separate and distinct from the item (3.84) which reduces or mitigates the risks (3.128) resulting from the item (3.84)
+    Row 19: A19=3.50 | B19=failure | C19=termination of an intended behavior of an element (3.41) or an item (3.84) due to a fault (3.54) activation
+Note to entry: Termination can be permanent or transient.
+    Row 20: A20=3.51 | B20=failure mode | C20=manner in which an element (3.41) or an item (3.84) fails to provide the intended behavior
+    Row 21: A21=3.52 | B21=Failure Mode Coverage
+FMC | C21=proportion of the failure rate (3.53) of a failure mode (3.51) of a hardware element (3.41) that is detected or controlled by the implemented safety mechanism (3.142)
+    Row 22: A22=3.53 | B22=failure rate | C22=probability density of failure (3.50) divided by probability of survival for a hardware element (3.41) 
+Note to entry: The failure rate is assumed to be constant and is generally denoted as “λ”.
+    Row 23: A23=3.54 | B23=fault | C23=abnormal condition that can cause an element (3.41) or an item (3.84) to fail
+Note 1 to entry: Permanent, intermittent, and transient faults (3.173) (especially soft errors) are considered.
+Note 2 to entry: When a subsystem is in an error (3.46) state it could result in a fault for the system (3.163).
+Note 3 to entry: An intermittent fault occurs from time to time and then disappears again. This type of fault can occur when a component (3.21) is on the verge of breaking down or, for example, due to an internal malfunction in a switch. Some systematic faults (3.165) (e.g. timing irregularities) could lead to intermittent faults.
+    Row 24: A24=3.57 | B24=fault injection | C24=method to evaluate the effect of a fault (3.54) within an element (3.41) by inserting faults (3.54), errors (3.46), or failures (3.50) in order to observe the reaction by observation points (3.101)
+Note to entry: Fault injection can be performed at various levels of abstraction including item (3.84) or element (3.41) level depending on the scope, feasibility, observability and level of required detail. Depending on purpose, it can be performed at different stages of the safety lifecycle and by considering different fault models (3.58).
+EXAMPLE 1 Injecting faults (3.54) during operation to verify that a safety mechanism (3.142) is working properly as part of a strategy to detect latent faults (3.85).
+EXAMPLE 2 Injecting faults (3.54) during integration test through hardware debug ports or through dedicated software commands to test the hardware-software interface (HSI).
+EXAMPLE 3 Simulating stuck-at faults (3.54) or transient faults at hardware component level to verify the diagnostic coverage (3.33) of a safety mechanism (3.142) or to identify faults (3.54) which may result in errors (3.46) or failures (3.50).
+    Row 25: A25=3.60 | B25=fault tolerance | C25=ability to deliver a specified functionality in the presence of one or more specified faults (3.54)
+Note to entry: Specified functionality can be intended functionality (3.83).
+    Row 26: A26=3.61 | B26=Fault Tolerant Time Interval
+FTTI | C26=Minimum time span from the occurrence of a fault (3.54) in an item (3.84) to a possible occurrence of a
+hazardous event (3.77), if the safety mechanisms (3.142) are not activated
+See Figure 5.
+Note 1 to entry: The minimum time span is to be evaluated over all hazardous events (3.77). It can depend on
+the characterization of the hazards (3.75).
+Note 2 to entry: FTTI is related to a hazard (3.75) caused by a malfunctioning behaviour (1.86) of the item
+(3.84). FTTI is a relevant attribute for safety goals (3.139) derived from this hazard (3.75).
+Note 3 to entry: A fault (3.54) is timely covered by a safety mechanism (3.142), if the item (3.84) is maintained
+in a safe state (3.131), or if the item (3.84) is transitioned to a safe state (3.131), or is transitioned to an emergency operation (3.43), within the relevant fault tolerant time interval.
+Note 4 to entry: The occurrence of a hazardous event (3.77) is dependent on a fault (3.54) being present and a vehicle being in a scenario that allows the fault (3.54) to affect vehicle behaviour.
+EXAMPLE A failure (3.50) in the brake system (3.163) may not result in a hazardous event (3.77) until the brakes are applied.
+Note 5 to entry: While the FTTI is defined only at the item (3.84) level, at the element (3.41) level the maximum fault handling time interval (3.56) and the state to be achieved after fault handling to support the functional safety concept (3.68) can be specified.
+Note 6 to entry: The fault detection time interval (3.55) may include multiple diagnostic test time intervals (3.35) to allow de-bouncing of errors (3.46) if the diagnostic test time interval (3.35) is sufficiently shorter than the fault detection time interval (3.55).
+    Row 27: A27=3.65 | B27=freedom from interference | C27=absence of cascading failures (3.17) between two or more elements (3.41) that could lead to the violation of a safety (3.132) requirement
+EXAMPLE 1 Element (3.41) 1 is free of interference from element (3.41) 2 if no failure (3.50) of element (3.41) 2 can cause element (3.41) 1 to fail.
+EXAMPLE 2 Element (3.41) 3 interferes with element (3.41) 4 if there exists a failure (3.50) of element (3.41) 3 that causes element (3.41) 4 to fail.
+    Row 28: A28=3.67 | B28=functional safety | C28=absence of unreasonable risk (3.176) due to hazards (3.75) caused by malfunctioning behaviour (3.88) of E/E systems (3.40)
+    Row 29: A29=3.70 | B29=hardware architectural metrics | C29=metrics for the evaluation of the effectiveness of the hardware architecture (3.1) with respect to safety (3.132)
+Note to entry: The single-point fault (3.156) metric and the latent fault (3.85) metric are the hardware architectural metrics.
+    Row 30: A30=3.75 | B30=hazard | C30=potential source of harm (3.74) caused by malfunctioning behaviour (3.88) of the item (3.84)
+Note to entry: This definition is restricted to the scope of the ISO 26262 series of standards; a more general definition is potential source of harm (3.74).
+    Row 31: A31=3.78 | B31=independence | C31=absence of dependent failures (3.29) between two or more elements (3.41) that could lead to the violation of a safety (3.132) requirement, or organizational separation of the parties performing an action
+Note to entry: ASIL decomposition (3.3) or confirmation measures (3.23) include requirements on independence.
+    Row 32: A32=3.79 | B32=independent failures | C32=failures (3.50) whose probability of simultaneous or successive occurrence can be expressed as the simple product of their unconditional probabilities
+Note to entry: Independent failures can include software failures 3.50) even if their probability of failure is not calculated.
+    Row 33: A33=3.84 | B33=item | C33=system (3.163) or combination of systems (3.163), to which ISO 26262 is applied, that implements a function or part of the function at the vehicle level
+    Row 34: A34=3.85 | B34=latent fault | C34=multiple-point fault (3.97) whose presence is not detected by a safety mechanism (3.142) nor perceived by the driver within the multiple-point fault detection time interval (3.98)
+    Row 35: A35=3.95 | B35=multi-core | C35=hardware component (3.21) which includes two or more hardware processing elements (3.113) which can operate independently from each other
+    Row 36: A36=3.96 | B36=multiple-point failure | C36=failure (3.50), resulting from the combination of several independent hardware faults (3.54), which leads directly to the violation of a safety goal (3.139)
+    Row 37: A37=3.97 | B37=multiple-point fault | C37=individual fault (3.54) that, in combination with other independent faults (3.54), if undetected and not perceived, could lead to a multiple-point failure (3.96)
+Note to entry: A multiple-point fault can only be recognized after the identification of a multiple-point failure (3.96), e.g. from cut set analysis of a fault tree.
+    Row 38: A38=3.108 | B38=perceived fault | C38=fault (3.50) that may be perceived indirectly (through deviating behaviour on vehicle level)
+    Row 39: A39=3.109 | B39=permanent fault | C39=fault (3.54) that occurs and stays until removed or repaired
+Note to entry: Direct current (d.c.) faults (3.54), e.g. stuck-at and bridging faults (3.54), are permanent faults (3.109).
+    Row 40: A40=3.115 | B40=proven in use argument | C40=evidence that, based on analysis of field data (3.62) resulting from use of a candidate (3.16), the probability of any failure (3.50) of this candidate that could impair a safety goal (3.139) of an item (3.84), meets the requirements for the applicable ASIL (3.6)
+    Row 41: A41=3.118 | B41=random hardware failure | C41=failure (3.50) that can occur unpredictably during the lifetime of a hardware element (3.41) and that follows a probability distribution
+Note 1 to entry: Random hardware failure rates can be predicted with reasonable accuracy.
+Note 2 to entry: Physical hardware failures (3.50) as defined by the PoF (3.111) methodology (SAE J1211, JEDEC JEP122, or similar) can be considered as random hardware failures for the purpose of this standard.
+    Row 42: A42=3.119 | B42=random hardware fault | C42=hardware fault (3.54) with a probabilistic distribution
+    Row 43: A43=3.122 | B43=redundancy | C43=existence of means in addition to the means that would be sufficient to perform a required function or to represent information
+Note 1 to entry: Redundancy is used in the ISO 26262 series of standards with respect to achieving a safety goal (3.139) or a specified safety (3.132) requirement, or to representing safety-related information.
+Note 2 to entry: The redundancy could be implemented homogenously or with diversity (3.37).
+EXAMPLE 1 Duplicated functional components (3.21) can be an instance of redundancy for the purpose of increasing availability (3.7) or allowing fault (3.54) detection.
+EXAMPLE 2 The addition of parity bits to data representing safety-related information provides redundancy for the purpose of allowing fault (3.54) detection.
+    Row 44: A44=3.125 | B44=residual fault | C44=portion of a random hardware fault (3.119) that by itself leads to the violation of a safety goal (3.139), occurring in a hardware element (3.41), where that portion of the random hardware fault (3.119) is not controlled by a safety mechanism (3.142)
+Note to entry: This presumes that the hardware element (3.41) has safety mechanism (3.142) coverage for only a portion of its faults (3.54).
+EXAMPLE If a set of faults (3.54) which is safety-relevant and not safe has a subset with 60% coverage, then the remaining 40% of the set of faults (3.54) are residual faults.
+    Row 45: A45=3.130 | B45=safe fault | C45=fault (3.54) whose occurrence will not significantly increase the probability of violation of a safety goal (3.139)
+Note 1 to entry: As shown in ISO 26262-5:2018, Annex B, both non-safety and safety-related elements (3.144) can have safe faults.
+Note 2 to entry: Single-point faults (3.156), residual faults (3.125) and dual-point faults (3.39) do not constitute safe faults.
+Note 3 to entry: Unless shown relevant in the safety (3.132) concept, multiple-point faults (3.97) with higher order than 2 can be considered as safe faults (3.130).
+    Row 46: A46=3.131 | B46=safe state | C46=operating mode (3.102), in case of a failure (3.51), of an item (3.84) without an unreasonable level of risk (3.128)
+See Figure 5.
+Note to entry: While normal operation can be considered safe, the definition of safe state is only in the case of failure (3.50) in the context of the ISO 26262 series of standards.
+EXAMPLE switched-off mode (for systems (3.163) that are not fault tolerant).
+    Row 47: A47=3.139 | B47=safety goal | C47=top-level safety (3.132) requirement as a result of the hazard analysis and risk assessment (3.76) at the vehicle level
+Note to entry: One safety goal can be related to several hazards (3.75), and several safety goals can be related to a single hazard (3.75).
+    Row 48: A48=3.142 | B48=safety mechanism | C48=technical solution implemented by E/E functions or elements (3.41), or by other technologies (3.105), to detect and mitigate or tolerate faults (3.54) or control or avoid failures (3.50) in order to maintain intended functionality (3.83) or achieve or maintain a safe state (3.131)
+Note 1 to entry: Safety mechanisms are implemented within the item (3.84) to prevent faults (3.54) from leading to single-point failures (3.155) and to prevent faults (3.54) from being latent faults (3.85).
+Note 2 to entry: The safety mechanism is either
+a) able to transition to, or maintain, the item (3.84) in a safe state (3.131), or
+b) able to alert the driver such that the driver is expected to control the effect of the failure (3.50), as defined in the functional safety concept (3.68).
+    Row 49: A49=3.155 | B49=single-point failure | C49=failure (3.50) that results from a single-point fault (3.156)
+    Row 50: A50=3.156 | B50=single-point fault | C50=hardware fault (3.54) in an element (3.41) that leads directly to the violation of a safety goal (3.139) and no fault (3.54) in that element (3.41) is covered by any safety mechanism (3.142)
+Note 1 to entry: See also single-point failure (3.155).
+Note 2 to entry: If at least one safety mechanism (3.142) is defined for an HW element (3.41) (e.g. a watchdog for a microcontroller), then no faults (3.54) of the considered hardware element (3.41) are single-point faults (3.156).
+    Row 51: A51=3.163 | B51=system | C51=set of components (3.21) or subsystems that relates at least a sensor, a controller and an actuator with one another
+Note to entry: The related sensor or actuator can be included in the system, or can be external to the system.
+    Row 52: A52=3.164 | B52=systematic failure | C52=failure (3.50) related in a deterministic way to a certain cause, that can only be eliminated by a change of the design or of the manufacturing process, operational procedures, documentation or other relevant factors
+    Row 53: A53=3.165 | B53=systematic fault | C53=fault (3.54) whose failure (3.50) is manifested in a deterministic way that can only be prevented by applying process or design measures
+    Row 54: A54=3.173 | B54=transient fault | C54=fault (3.54) that occurs once and subsequently disappears
+Note to entry: Transient faults can appear due to electromagnetic interference, which can lead to bit-flips. Soft errors such as Single Event Upset (SEU) and Single Event Transient (SET) are transient faults.
+
+================================================================================
+Sheet: Methodology
+  Dimensions: A1:D44
+  Max row: 44, Max col: 4
+  Sheet state: visible
+  Merged cells (17):
+    A1:D1
+    A40:D40
+    A18:D18
+    A37:D37
+    A5:D5
+    A27:D27
+    A6:D6
+    A23:D23
+    A35:D35
+    A2:D4
+    A21:D21
+    A38:D38
+    A39:D39
+    A25:D25
+    A33:D33
+    A36:D36
+    A13:D13
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=Methodology
+    Row 2: A2=Dependent failure is an event, of which occurrence probability cannot be modelled as a product of single occurrence probabilities (mathematical), or event, which is caused by any interdependent structure (multiple failure, technical). Dependent failures can be classified in the following categories:
+
+• CCF   (Common Cause Failure). Type of a dependent failure, at which a common single cause triggers several failures occurring simultaneously.
+• CMF  (Common Mode Failure). Specific CCF, in which several units or components fail in the same way.
+• CF     (Cascading Failures). Failures causing another element to fail.
+Note: Dependent failures concern not only redundant (parallel) systems but all systems where a combination of events (cut sets 2nd and higher order) may violate a safety goal.
+
+There are two basic approaches to analyse the dependent failures:
+
+• Event specific models                                    (initial point: root causes for dependent failures  ->  impact analysis on redundant elements)
+  -Consideration of special consequences resulting from predefined events as for example environmental impact, common supply, human factor, 
+   technology used and analysing their impact on the redundant system elements
+
+• Event tree and fault tree cut set analysis   (initial point: cut sets estimated -> analysis of dependant failure sources which could have impact on these cut sets)
+  Consideration of logical AND combinations (cut sets)  between the elements and analysing causes which could impact these combinations
+   
+Both approaches complement one another: 
+- the event specific model  investigates pre-defined event's impact on redundant elements of the system
+- the cut set analysis discloses the concatenation of the cut set elements and investigates events which could have impact on these cut sets
+
+    Row 5: A5="Event specific model" analysis method
+    Row 6: A6=ISO 26262-10 Annex A.3.6 gives an example on possible proceeding when performing DFA.
+The Dependent Failure Analysis is structured into the following steps:
+
+1) Identification of events (parts) could be subject to dependent failure can be done:
+    - based on analysis of the Functional Safety Concept, system architecture where structures or parts claimed to be independent of each other in fact can
+      be susceptible to dependent failures
+    - based on deductive analysis such as FTA which allows cut set analysis - i.e. estimation of events which are combined by logical AND combination and
+      which when all events occur violate the safety goal.
+     These cut sets represent redundant logical structures. Some examples of such cut sets 2nd order (& symbol represents logical AND  between them):
+    - µcontroller's failure & watchdog's failure
+    - main µcontroller's failure & co-controller's failure
+    - sensor A failure & sensor B failure
+
+2) Identification of sources for potential dependent failures.
+
+The table below implements and expands ISO 26262-10 Table A.7 in view of topics for dependant failure evaluation, potential initiators and related measures
+    Row 7: A7=Topics of ISO 26262-9:2011, 7.4.2.3 | B7=Example of potential initiators and coupling mechanisms | C7=Examples of measures | D7=Applicability in the current project
+    Row 8: A8=Hardware failures | B8=Physical defects able to influence both a part and its safety mechanism in such a way that a violation of the safety goal can occur | C8=Can be addressed by measures like physical separation, diversity, production tests, etc.
+    Row 9: B9=Interdependent temperature influence of the components (e.g. voltage regulator, temperature sensitive sensor) | C9=Physical separation of critical elements, use of automotive qualified components
+    Row 10: B10=EMC disturbances ( conducted and radiated interference, noise, ground bouncing,) | C10=Design rules, signal filtering, shielding, comprehensive EMC (emissions, immunity) testing
+    Row 11: B11=Pull-up, pull-down resistors, decoupling resistors on common signals leading to redundant elements | C11=Design rules, design review, fault injection testing
+    Row 12: B12=Interface failures | C12=Protection of data interfaces by safety mechanisms (CRC, timeout, sequencing)
+    Row 14: A14=Development faults | B14=Faults introduced within development which have the capability to cause a dependent failure, for example, crosstalk, incorrect implementation of functionality, specification errors, wrong microcontroller configuration, etc. (see also A.3.7) | C14=Can be addressed by measures like development process definition, diversity, design rules, configuration protection mechanisms, etc.
+    Row 15: B15=Inadequate PCB material | C15=Design rules, use of automotive qualified components, PCB coating
+    Row 16: B16=Corrosion / moisture | C16=IP protection class, robustness test (substance ingress tests)
+    Row 17: B17=Fluid leakage | C17=IP protection class, robustness test (substance ingress tests)
+    Row 19: A19=Manufacturing faults | B19=Faults introduced within manufacturing which have the capability to cause a dependent failure, for example, masks misalignment faults | C19=Can be addressed by a thorough production test of the microcontroller
+    Row 20: B20=Calibration faults, no protection of code and calibration data against misuse | C20=EOL test, protection mechanisms e.g. CRC32 signature
+    Row 22: A22=Installation faults | B22=Faults introduced during installation which have the capability to cause a dependent failure, for example, microcontroller PCB connection, interference of adjacent parts, etc. | C22=Can be addressed by production test of ECU, installation manuals, etc.
+    Row 24: A24=Repair faults | B24=Faults introduced during repair which have the capability to cause a dependent failure, for example, faults in memory spare columns/rows | C24=Can be addressed by production tests, repair manuals, etc.
+    Row 26: A26=Environmental factors | B26=Typical environmental factors are temperature, Electro Magnetic Interference (EMI), humidity, mechanical stress, etc. | C26=Can be addressed by measures like qualification tests, stress tests, dedicated sensors, diversity, etc.
+    Row 28: A28=Failures of common internal and external resources | B28=For a microcontroller, typical shared resources are clocks, reset and power supply, including power distribution | C28=Can be addressed by measures like clock supervision, internal or external supply supervision, diverse distribution, etc.
+    Row 29: B29=Common memory (RAM, ROM, EEPROM)
+    Row 30: B30=Common sensor signals shared for redundant processing paths
+    Row 31: B31=bus master devices, bus gateways
+    Row 32: B32=Reset logic provided by common System Basis Chip or watchdog
+    Row 34: A34=Stress due to specific situations, e.g. wear, ageing | B34=Ageing and wear mechanisms are, for example, electro migration, etc. | C34=Can be addressed by design rules, qualification tests, diversity, start-up tests, etc.
+    Row 36: A36=3) Identify the coupling mechanism between the parts  enabling dependent failures
+    Row 38: A38=4) Qualitatively list and evaluate the measures to prevent the dependent failures
+    Row 40: A40=5) Qualitatively list and evaluate the design measures taken to control the effect caused by the remaining dependent failures on each structure of parts identified in step 1
+
+================================================================================
+Sheet: Flowchart
+  Dimensions: A1:A1
+  Max row: 1, Max col: 1
+  Sheet state: visible
+  Images (10):
+    Image 0: size=(627x563)
+    Image 1: size=(623x199)
+    Image 2: size=(616x456)
+    Image 3: size=(643x158)
+    Image 4: size=(620x172)
+    Image 5: size=(619x538)
+    Image 6: size=(584x280)
+    Image 7: size=(621x337)
+    Image 8: size=(620x197)
+    Image 9: size=(950x1272)
+
+  --- Cell Data (up to 100 rows) ---
+
+================================================================================
+Sheet: Block-Diagram
+  Dimensions: B2:D2
+  Max row: 2, Max col: 4
+  Sheet state: visible
+
+  --- Cell Data (up to 100 rows) ---
+    Row 2: B2=Block Diagram
+
+================================================================================
+Sheet: Cut Set based Analysis
+  Dimensions: A1:V100
+  Max row: 100, Max col: 22
+  Sheet state: visible
+  Merged cells (8):
+    F13:O13
+    A2:Q9
+    P13:P14
+    Q13:Q14
+    A12:Q12
+    A10:Q11
+    A1:Q1
+    A13:D13
+  Hidden columns: ['S']
+  Formulas (86):
+    P15: =G15+I15+K15+M15+O15  => 7
+    P16: =G16+I16+K16+M16+O16  => 3
+    P17: =G17+I17+K17+M17+O17  => 0
+    P18: =G18+I18+K18+M18+O18  => 0
+    P19: =G19+I19+K19+M19+O19  => 0
+    P20: =G20+I20+K20+M20+O20  => 0
+    P21: =G21+I21+K21+M21+O21  => 0
+    P22: =G22+I22+K22+M22+O22  => 0
+    P23: =G23+I23+K23+M23+O23  => 0
+    P24: =G24+I24+K24+M24+O24  => 0
+    P25: =G25+I25+K25+M25+O25  => 0
+    P26: =G26+I26+K26+M26+O26  => 0
+    P27: =G27+I27+K27+M27+O27  => 0
+    P28: =G28+I28+K28+M28+O28  => 0
+    P29: =G29+I29+K29+M29+O29  => 0
+    P30: =G30+I30+K30+M30+O30  => 0
+    P31: =G31+I31+K31+M31+O31  => 0
+    P32: =G32+I32+K32+M32+O32  => 0
+    P33: =G33+I33+K33+M33+O33  => 0
+    P34: =G34+I34+K34+M34+O34  => 0
+    P35: =G35+I35+K35+M35+O35  => 0
+    P36: =G36+I36+K36+M36+O36  => 0
+    P37: =G37+I37+K37+M37+O37  => 0
+    P38: =G38+I38+K38+M38+O38  => 0
+    P39: =G39+I39+K39+M39+O39  => 0
+    P40: =G40+I40+K40+M40+O40  => 0
+    P41: =G41+I41+K41+M41+O41  => 0
+    P42: =G42+I42+K42+M42+O42  => 0
+    P43: =G43+I43+K43+M43+O43  => 0
+    P44: =G44+I44+K44+M44+O44  => 0
+    P45: =G45+I45+K45+M45+O45  => 0
+    P46: =G46+I46+K46+M46+O46  => 0
+    P47: =G47+I47+K47+M47+O47  => 0
+    P48: =G48+I48+K48+M48+O48  => 0
+    P49: =G49+I49+K49+M49+O49  => 0
+    P50: =G50+I50+K50+M50+O50  => 0
+    P51: =G51+I51+K51+M51+O51  => 0
+    P52: =G52+I52+K52+M52+O52  => 0
+    P53: =G53+I53+K53+M53+O53  => 0
+    P54: =G54+I54+K54+M54+O54  => 0
+    P55: =G55+I55+K55+M55+O55  => 0
+    P56: =G56+I56+K56+M56+O56  => 0
+    P57: =G57+I57+K57+M57+O57  => 0
+    P58: =G58+I58+K58+M58+O58  => 0
+    P59: =G59+I59+K59+M59+O59  => 0
+    P60: =G60+I60+K60+M60+O60  => 0
+    P61: =G61+I61+K61+M61+O61  => 0
+    P62: =G62+I62+K62+M62+O62  => 0
+    P63: =G63+I63+K63+M63+O63  => 0
+    P64: =G64+I64+K64+M64+O64  => 0
+    P65: =G65+I65+K65+M65+O65  => 0
+    P66: =G66+I66+K66+M66+O66  => 0
+    P67: =G67+I67+K67+M67+O67  => 0
+    P68: =G68+I68+K68+M68+O68  => 0
+    P69: =G69+I69+K69+M69+O69  => 0
+    P70: =G70+I70+K70+M70+O70  => 0
+    P71: =G71+I71+K71+M71+O71  => 0
+    P72: =G72+I72+K72+M72+O72  => 0
+    P73: =G73+I73+K73+M73+O73  => 0
+    P74: =G74+I74+K74+M74+O74  => 0
+    P75: =G75+I75+K75+M75+O75  => 0
+    P76: =G76+I76+K76+M76+O76  => 0
+    P77: =G77+I77+K77+M77+O77  => 0
+    P78: =G78+I78+K78+M78+O78  => 0
+    P79: =G79+I79+K79+M79+O79  => 0
+    P80: =G80+I80+K80+M80+O80  => 0
+    P81: =G81+I81+K81+M81+O81  => 0
+    P82: =G82+I82+K82+M82+O82  => 0
+    P83: =G83+I83+K83+M83+O83  => 0
+    P84: =G84+I84+K84+M84+O84  => 0
+    P85: =G85+I85+K85+M85+O85  => 0
+    P86: =G86+I86+K86+M86+O86  => 0
+    P87: =G87+I87+K87+M87+O87  => 0
+    P88: =G88+I88+K88+M88+O88  => 0
+    P89: =G89+I89+K89+M89+O89  => 0
+    P90: =G90+I90+K90+M90+O90  => 0
+    P91: =G91+I91+K91+M91+O91  => 0
+    P92: =G92+I92+K92+M92+O92  => 0
+    P93: =G93+I93+K93+M93+O93  => 0
+    P94: =G94+I94+K94+M94+O94  => 0
+    P95: =G95+I95+K95+M95+O95  => 0
+    P96: =G96+I96+K96+M96+O96  => 0
+    P97: =G97+I97+K97+M97+O97  => 0
+    P98: =G98+I98+K98+M98+O98  => 0
+    P99: =G99+I99+K99+M99+O99  => 0
+    P100: =G100+I100+K100+M100+O100  => 0
+  Data Validations (1):
+    G15:G100 I15:I100 K15:K100 M15:M100 O15:O100: type=list, formula1=$S$15:$V$15
+  Conditional Formatting (2):
+    <ConditionalFormatting P15:P100>
+    <ConditionalFormatting G15:G100 I15:I100 K15:K100 M15:M100 O15:O100>
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=Analysis based on Cut Set List from ETA (Event Tree Analysis) or FTA (Fault Tree Analysis)
+    Row 2: A2=Proceeding:
+1) Estimation of Cut Sets based on Fault Tree Analysis performed for each safety goal (the Cut Sets are output by the FTA tool as e.g. Isograph Fault Tree+). Remark: FTA is an input for a DFA and not output!
+    The Cut Sets output by FTA tool often result in numerous amount of Cut Sets even for a clear FTA structure and limited Cut Set order.
+    Remark: the Cut Set analysis can be limited to a pre-defined Cut Set order e.g. 3 - the higher the Cut set order the less is the probability, that all Cut Set events are impact by the same CCF. However, the Cut Set order limitation has to be performed carefully.
+    An analysis of every Cut set can be time consuming.  On that reason a CCCI – Common Cause Criticality Index is introduced and the events contained in each cut set are analysed in view of following issues:
+
+    a) Spatial resolution. Distance between the elements involved in a cut set events. Example: IC pins close to each other can be impact by the same factor (metal particles, dust in combination with humidity, salt mist …) and effect a common stuck-at failure
+    b) Sharing of common resources for elements in a cut set. Example: power supply generated by the same voltage regulator or ASIC for different redundant processing elements, same time base (clock) provided for a microprocessor and for a watchdog 
+        controlling its program sequence
+    c) Conducting of the same information (same signal passes cut set elements). Example: MOSFETS in a H-bridge leading the same motor current, relay contacts in the same power circuit
+    d) Same function and the same technology (common mode for the cut set elements). Example: MOSFETs with similar environmental and functional characteristics in view of their max. allowable junction temperature, microprocessors in the same 
+          technology being subjected by the same conducted and radiated signals, relays contacts with the same affection on welding, sensors based on same physical functioning
+    e) Components located in the same package (housing of the cut set elements). Example: logic elements, operational amplifier, bipolar transistors located in the same package, on-chip watchdog, relays
+
+    Row 10: A10=For each issue (a till e) a score between 0 (not applicable at all) and 3 (highly applicable) is assigned.  The addition of scores results in Common Cause Criticality Index (CCCI) value. The higher the CCCI value, the higher the common cause impact between the cut set elements could be.
+High CCCI value is an indication for several issues contributing to a common cause potential which needs further investigation (e.g. in a FMEA, ) or additional measures (e.g. environmental testing, robustness test, re-design...)
+The CCCI-value itself does not represent an exact quantitative limit for a common cause potential – it is rather a rough highlighting / focusing on Cut Sets where several issues match for further, more detailed investigation.
+For high CCCI values additional "Detection / prevention measures. Further investigations" have to be specified.
+
+    Row 13: A13=Cut Sets derived from the FTA performed for each Safety Goal | F13=Common Cause Criticality Index | P13=Weighting | Q13=Detection / Prevention measures. Further investigations
+    Row 14: A14=No. | B14=CutSetID
+(information taken from the FTA) | C14=Cut Set Order | D14=Cut Set Description | F14=Spatial resolution.  Distance between the elements | G14=Score | H14=Sharing of common resources | I14=Score | J14=Conducting of the same information (same signal) | K14=Score | L14=Same function and the same technology (common mode) | M14=Score | N14=Components located in the same package (housing) | O14=Score
+    Row 15: A15=1 | B15=EV1& EV2 (an example) | C15=2 | D15=MOSFET1 shorted and MOSFET 2 shorted | F15=both elements long way of each other | G15=2 | H15=no common resources estimated | I15=0 | J15=both MOSFETS lead the same motor current to be interrupted | K15=2 | L15=same MOSFET types | M15=3 | N15=does not apply | O15=0 | P15=[F]=G15+I15+K15+M15+O15=>7 | Q15=Detection:
+Additional tests at higher environment  temperature, max. current value and slow-going shut-off signal... 
+Prevention:
+De-rating, different manufacturer… | S15=0 | T15=1 | U15=2 | V15=3
+    Row 16: A16=2 | B16=BLK1&BLK1 dummy | C16=2 | D16=BLK1 and ite fully HW duplicate | F16=They are separated in different corner of IC layout | G16=0 | H16=They have independent circuits | I16=1 | J16=They conducting the same signals | K16=2 | L16=Same process | M16=0 | N16=in same package | O16=0 | P16=[F]=G16+I16+K16+M16+O16=>3 | Q16=The shared input signals are protected by additional "parity bit"
+    Row 17: A17=3 | G17=0 | I17=0 | K17=0 | M17=0 | O17=0 | P17=[F]=G17+I17+K17+M17+O17=>0
+    Row 18: G18=0 | I18=0 | K18=0 | M18=0 | O18=0 | P18=[F]=G18+I18+K18+M18+O18=>0
+    Row 19: G19=0 | I19=0 | K19=0 | M19=0 | O19=0 | P19=[F]=G19+I19+K19+M19+O19=>0
+    Row 20: G20=0 | I20=0 | K20=0 | M20=0 | O20=0 | P20=[F]=G20+I20+K20+M20+O20=>0
+    Row 21: G21=0 | I21=0 | K21=0 | M21=0 | O21=0 | P21=[F]=G21+I21+K21+M21+O21=>0
+    Row 22: G22=0 | I22=0 | K22=0 | M22=0 | O22=0 | P22=[F]=G22+I22+K22+M22+O22=>0
+    Row 23: G23=0 | I23=0 | K23=0 | M23=0 | O23=0 | P23=[F]=G23+I23+K23+M23+O23=>0
+    Row 24: G24=0 | I24=0 | K24=0 | M24=0 | O24=0 | P24=[F]=G24+I24+K24+M24+O24=>0
+    Row 25: G25=0 | I25=0 | K25=0 | M25=0 | O25=0 | P25=[F]=G25+I25+K25+M25+O25=>0
+    Row 26: G26=0 | I26=0 | K26=0 | M26=0 | O26=0 | P26=[F]=G26+I26+K26+M26+O26=>0
+    Row 27: G27=0 | I27=0 | K27=0 | M27=0 | O27=0 | P27=[F]=G27+I27+K27+M27+O27=>0
+    Row 28: G28=0 | I28=0 | K28=0 | M28=0 | O28=0 | P28=[F]=G28+I28+K28+M28+O28=>0
+    Row 29: G29=0 | I29=0 | K29=0 | M29=0 | O29=0 | P29=[F]=G29+I29+K29+M29+O29=>0
+    Row 30: G30=0 | I30=0 | K30=0 | M30=0 | O30=0 | P30=[F]=G30+I30+K30+M30+O30=>0
+    Row 31: G31=0 | I31=0 | K31=0 | M31=0 | O31=0 | P31=[F]=G31+I31+K31+M31+O31=>0
+    Row 32: G32=0 | I32=0 | K32=0 | M32=0 | O32=0 | P32=[F]=G32+I32+K32+M32+O32=>0
+    Row 33: G33=0 | I33=0 | K33=0 | M33=0 | O33=0 | P33=[F]=G33+I33+K33+M33+O33=>0
+    Row 34: G34=0 | I34=0 | K34=0 | M34=0 | O34=0 | P34=[F]=G34+I34+K34+M34+O34=>0
+    Row 35: G35=0 | I35=0 | K35=0 | M35=0 | O35=0 | P35=[F]=G35+I35+K35+M35+O35=>0
+    Row 36: G36=0 | I36=0 | K36=0 | M36=0 | O36=0 | P36=[F]=G36+I36+K36+M36+O36=>0
+    Row 37: G37=0 | I37=0 | K37=0 | M37=0 | O37=0 | P37=[F]=G37+I37+K37+M37+O37=>0
+    Row 38: G38=0 | I38=0 | K38=0 | M38=0 | O38=0 | P38=[F]=G38+I38+K38+M38+O38=>0
+    Row 39: G39=0 | I39=0 | K39=0 | M39=0 | O39=0 | P39=[F]=G39+I39+K39+M39+O39=>0
+    Row 40: G40=0 | I40=0 | K40=0 | M40=0 | O40=0 | P40=[F]=G40+I40+K40+M40+O40=>0
+    Row 41: G41=0 | I41=0 | K41=0 | M41=0 | O41=0 | P41=[F]=G41+I41+K41+M41+O41=>0
+    Row 42: G42=0 | I42=0 | K42=0 | M42=0 | O42=0 | P42=[F]=G42+I42+K42+M42+O42=>0
+    Row 43: G43=0 | I43=0 | K43=0 | M43=0 | O43=0 | P43=[F]=G43+I43+K43+M43+O43=>0
+    Row 44: G44=0 | I44=0 | K44=0 | M44=0 | O44=0 | P44=[F]=G44+I44+K44+M44+O44=>0
+    Row 45: G45=0 | I45=0 | K45=0 | M45=0 | O45=0 | P45=[F]=G45+I45+K45+M45+O45=>0
+    Row 46: G46=0 | I46=0 | K46=0 | M46=0 | O46=0 | P46=[F]=G46+I46+K46+M46+O46=>0
+    Row 47: G47=0 | I47=0 | K47=0 | M47=0 | O47=0 | P47=[F]=G47+I47+K47+M47+O47=>0
+    Row 48: G48=0 | I48=0 | K48=0 | M48=0 | O48=0 | P48=[F]=G48+I48+K48+M48+O48=>0
+    Row 49: G49=0 | I49=0 | K49=0 | M49=0 | O49=0 | P49=[F]=G49+I49+K49+M49+O49=>0
+    Row 50: G50=0 | I50=0 | K50=0 | M50=0 | O50=0 | P50=[F]=G50+I50+K50+M50+O50=>0
+    Row 51: G51=0 | I51=0 | K51=0 | M51=0 | O51=0 | P51=[F]=G51+I51+K51+M51+O51=>0
+    Row 52: G52=0 | I52=0 | K52=0 | M52=0 | O52=0 | P52=[F]=G52+I52+K52+M52+O52=>0
+    Row 53: G53=0 | I53=0 | K53=0 | M53=0 | O53=0 | P53=[F]=G53+I53+K53+M53+O53=>0
+    Row 54: G54=0 | I54=0 | K54=0 | M54=0 | O54=0 | P54=[F]=G54+I54+K54+M54+O54=>0
+    Row 55: G55=0 | I55=0 | K55=0 | M55=0 | O55=0 | P55=[F]=G55+I55+K55+M55+O55=>0
+    Row 56: G56=0 | I56=0 | K56=0 | M56=0 | O56=0 | P56=[F]=G56+I56+K56+M56+O56=>0
+    Row 57: G57=0 | I57=0 | K57=0 | M57=0 | O57=0 | P57=[F]=G57+I57+K57+M57+O57=>0
+    Row 58: G58=0 | I58=0 | K58=0 | M58=0 | O58=0 | P58=[F]=G58+I58+K58+M58+O58=>0
+    Row 59: G59=0 | I59=0 | K59=0 | M59=0 | O59=0 | P59=[F]=G59+I59+K59+M59+O59=>0
+    Row 60: G60=0 | I60=0 | K60=0 | M60=0 | O60=0 | P60=[F]=G60+I60+K60+M60+O60=>0
+    Row 61: G61=0 | I61=0 | K61=0 | M61=0 | O61=0 | P61=[F]=G61+I61+K61+M61+O61=>0
+    Row 62: G62=0 | I62=0 | K62=0 | M62=0 | O62=0 | P62=[F]=G62+I62+K62+M62+O62=>0
+    Row 63: G63=0 | I63=0 | K63=0 | M63=0 | O63=0 | P63=[F]=G63+I63+K63+M63+O63=>0
+    Row 64: G64=0 | I64=0 | K64=0 | M64=0 | O64=0 | P64=[F]=G64+I64+K64+M64+O64=>0
+    Row 65: G65=0 | I65=0 | K65=0 | M65=0 | O65=0 | P65=[F]=G65+I65+K65+M65+O65=>0
+    Row 66: G66=0 | I66=0 | K66=0 | M66=0 | O66=0 | P66=[F]=G66+I66+K66+M66+O66=>0
+    Row 67: G67=0 | I67=0 | K67=0 | M67=0 | O67=0 | P67=[F]=G67+I67+K67+M67+O67=>0
+    Row 68: G68=0 | I68=0 | K68=0 | M68=0 | O68=0 | P68=[F]=G68+I68+K68+M68+O68=>0
+    Row 69: G69=0 | I69=0 | K69=0 | M69=0 | O69=0 | P69=[F]=G69+I69+K69+M69+O69=>0
+    Row 70: G70=0 | I70=0 | K70=0 | M70=0 | O70=0 | P70=[F]=G70+I70+K70+M70+O70=>0
+    Row 71: G71=0 | I71=0 | K71=0 | M71=0 | O71=0 | P71=[F]=G71+I71+K71+M71+O71=>0
+    Row 72: G72=0 | I72=0 | K72=0 | M72=0 | O72=0 | P72=[F]=G72+I72+K72+M72+O72=>0
+    Row 73: G73=0 | I73=0 | K73=0 | M73=0 | O73=0 | P73=[F]=G73+I73+K73+M73+O73=>0
+    Row 74: G74=0 | I74=0 | K74=0 | M74=0 | O74=0 | P74=[F]=G74+I74+K74+M74+O74=>0
+    Row 75: G75=0 | I75=0 | K75=0 | M75=0 | O75=0 | P75=[F]=G75+I75+K75+M75+O75=>0
+    Row 76: G76=0 | I76=0 | K76=0 | M76=0 | O76=0 | P76=[F]=G76+I76+K76+M76+O76=>0
+    Row 77: G77=0 | I77=0 | K77=0 | M77=0 | O77=0 | P77=[F]=G77+I77+K77+M77+O77=>0
+    Row 78: G78=0 | I78=0 | K78=0 | M78=0 | O78=0 | P78=[F]=G78+I78+K78+M78+O78=>0
+    Row 79: G79=0 | I79=0 | K79=0 | M79=0 | O79=0 | P79=[F]=G79+I79+K79+M79+O79=>0
+    Row 80: G80=0 | I80=0 | K80=0 | M80=0 | O80=0 | P80=[F]=G80+I80+K80+M80+O80=>0
+    Row 81: G81=0 | I81=0 | K81=0 | M81=0 | O81=0 | P81=[F]=G81+I81+K81+M81+O81=>0
+    Row 82: G82=0 | I82=0 | K82=0 | M82=0 | O82=0 | P82=[F]=G82+I82+K82+M82+O82=>0
+    Row 83: G83=0 | I83=0 | K83=0 | M83=0 | O83=0 | P83=[F]=G83+I83+K83+M83+O83=>0
+    Row 84: G84=0 | I84=0 | K84=0 | M84=0 | O84=0 | P84=[F]=G84+I84+K84+M84+O84=>0
+    Row 85: G85=0 | I85=0 | K85=0 | M85=0 | O85=0 | P85=[F]=G85+I85+K85+M85+O85=>0
+    Row 86: G86=0 | I86=0 | K86=0 | M86=0 | O86=0 | P86=[F]=G86+I86+K86+M86+O86=>0
+    Row 87: G87=0 | I87=0 | K87=0 | M87=0 | O87=0 | P87=[F]=G87+I87+K87+M87+O87=>0
+    Row 88: G88=0 | I88=0 | K88=0 | M88=0 | O88=0 | P88=[F]=G88+I88+K88+M88+O88=>0
+    Row 89: G89=0 | I89=0 | K89=0 | M89=0 | O89=0 | P89=[F]=G89+I89+K89+M89+O89=>0
+    Row 90: G90=0 | I90=0 | K90=0 | M90=0 | O90=0 | P90=[F]=G90+I90+K90+M90+O90=>0
+    Row 91: G91=0 | I91=0 | K91=0 | M91=0 | O91=0 | P91=[F]=G91+I91+K91+M91+O91=>0
+    Row 92: G92=0 | I92=0 | K92=0 | M92=0 | O92=0 | P92=[F]=G92+I92+K92+M92+O92=>0
+    Row 93: G93=0 | I93=0 | K93=0 | M93=0 | O93=0 | P93=[F]=G93+I93+K93+M93+O93=>0
+    Row 94: G94=0 | I94=0 | K94=0 | M94=0 | O94=0 | P94=[F]=G94+I94+K94+M94+O94=>0
+    Row 95: G95=0 | I95=0 | K95=0 | M95=0 | O95=0 | P95=[F]=G95+I95+K95+M95+O95=>0
+    Row 96: G96=0 | I96=0 | K96=0 | M96=0 | O96=0 | P96=[F]=G96+I96+K96+M96+O96=>0
+    Row 97: G97=0 | I97=0 | K97=0 | M97=0 | O97=0 | P97=[F]=G97+I97+K97+M97+O97=>0
+    Row 98: G98=0 | I98=0 | K98=0 | M98=0 | O98=0 | P98=[F]=G98+I98+K98+M98+O98=>0
+    Row 99: G99=0 | I99=0 | K99=0 | M99=0 | O99=0 | P99=[F]=G99+I99+K99+M99+O99=>0
+    Row 100: G100=0 | I100=0 | K100=0 | M100=0 | O100=0 | P100=[F]=G100+I100+K100+M100+O100=>0
+
+================================================================================
+Sheet: Block based Analysis
+  Dimensions: A1:N116
+  Max row: 116, Max col: 14
+  Sheet state: visible
+  Merged cells (3):
+    D2:J2
+    K2:N2
+    A1:N1
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=Analysis based on internal blocks (e.g. from functional block diagram)
+    Row 2: A2=ID | B2=Element | C2=Redundant element | D2=Dependant Failure Initiator related to… | K2=DFA
+    Row 3: B3=Short name and description | C3=Short name and description | D3=shared resources | E3=single physical root cause | F3=environmental faults | G3=development faults | H3=manufacturing faults | I3=installation faults | J3=service faults | K3=Measure for fault Avoidance or Control | L3=Verification method | M3=Measure assigned to | N3=Measure status
+    Row 4: A4=1 | B4=e.g. Main CPU | C4=Co-Controller | D4=Failures in common clock elements (including PLL, clock trees, clock enable signals,etc.) | M4=IP/SoC  integrator | N4=in progress
+    Row 5: A5=2 | B5=e.g. Main CPU | C5=Co-Controller | E5=Short circuits (e.g.: local defects, electro migration, via migration, contact migration, oxide break down) | M5=IP/SoC  integrator | N5=in progress
+    Row 6: A6=3 | B6=e.g. Main CPU | C6=Co-Controller | F6=EMI | M6=IP/SoC  integrator | N6=in progress
+    Row 7: A7=4 | B7=e.g. Main CPU | C7=Co-Controller | G7=Requirement faults | M7=IP/SoC  integrator | N7=in progress
+    Row 8: A8=5 | B8=e.g. Main CPU | C8=Co-Controller | H8=Mask misalignment | M8=IP/SoC  integrator | N8=in progress
+    Row 9: A9=6 | B9=e.g. Main CPU | C9=Co-Controller | I9=no DFI related to installation faults known | M9=IP/SoC  integrator | N9=in progress
+    Row 10: A10=7 | B10=e.g. Main CPU | C10=Co-Controller | J10=no DFI related to service faults known | M10=IP/SoC  integrator | N10=in progress
+
+================================================================================
+Sheet: CCF Calc. On-Chip Red.
+  Dimensions: A1:L30
+  Max row: 30, Max col: 12
+  Sheet state: visible
+  Merged cells (9):
+    A1:G1
+    A9:G9
+    A3:G3
+    A26:D26
+    A30:D30
+    A12:G12
+    A25:G25
+    A10:D10
+    A28:D28
+  Formulas (17):
+    E5: =C5*F5  => 0
+    E6: =C6*F6  => 0
+    E7: =C7*F7  => 0
+    E8: =C8*F8  => 0
+    E10: =SUM(E5:E8)  => 0
+    E14: =C14*F14  => 0
+    E15: =C15*F15  => 0
+    E16: =C16*F16  => 0
+    E17: =C17*F17  => 0
+    E19: =C19*F19  => 0
+    E20: =C20*F20  => 0
+    E21: =C21*F21  => 0
+    E22: =C22*F22  => 0
+    E23: =C23*F23  => 0
+    E24: =C24*F24  => 0
+    E26: =SUM(E14:E24)  => 0
+    E30: =E28+E10-E26  => 33
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=Calculation of β-factor according to IEC 61508 Ed. 2 for On-Chip Redundancy
+    Row 3: A3=Techniques and measures that increase βB-IC
+    Row 4: B4=Technique/measure | C4=Delta
+β-factor [%] | D4=Remark | E4=additional
+β-factor [%] | F4=yes = 1 no = 0 | G4=Comments
+    Row 5: A5=1 | B5=Watchdog on-chip used as
+monitoring element | C5=5 | D5=Monitoring elements used for watchdog function and necessary to guarantee the required DC should be realised external to the IC preferably under the aspect of common cause failures. The use of a watchdog(s) on-chip may result in a higher lower DC compared to external realization. | E5=[F]=C5*F5=>0 | F5=0
+    Row 6: A6=2 | B6=Monitoring elements on-chip other than watchdog, for example clock monitoring | C6=5 | D6=Monitoring elements used for example for clock monitoring and necessary to guarantee the required DC should be realised external to the IC preferably under the aspect of common cause failures. The use of a monitoring element(s) on-chip may result in a higher lower DC compared to external realization. | E6=[F]=C6*F6=>0 | F6=0
+    Row 7: A7=3a | B7=Internal connections between blocks by wiring between output and input cells of separate physical blocks without cross-over in different layers | C7=2 | D7=Comparison of conditions and results between separate physical blocks should be realised external to the IC preferably.
+Analysis of possible common cause failures including FMEA of stuck-at-faults of internal connections is required. Effects of temperature increase due to faults shall be taken into account in particular.
+Verification of the layout should be carried out by analysis of the final layout, for example with the help of tools. | E7=[F]=C7*F7=>0 | F7=0
+    Row 8: A8=3b | B8=Internal connections between blocks by wiring between output and input cells of separate physical blocks with cross-over | C8=4 | D8=Comparison of conditions and results between separate physical blocks should be realised external to the IC preferably.
+Analysis of possible common cause failures including FMEA of stuck-at-faults and short circuit of internal connections is required. Effects of temperature increase due to faults shall be taken into account in particular. | E8=[F]=C8*F8=>0 | F8=0
+    Row 9: A9=Alternate techniques/measures are indicated by a letter following the number. Only one of the alternate techniques/measures can be selected.
+Techniques and measures listed in this table are not exhaustive. Other techniques and measures may be used, provided evidence is given to support the claimed delta β-factor.
+If evidence can be provided that measures were taken to mitigate the impact of common cause failures, other delta β-factors may be used. General advice from Annex D of IEC 61508-6 should be observed in such cases.
+NOTE The interface signals between the redundant blocks are generally composed of multiple layers. Irrespective of the composition of a signal, whether it is solely constructed with only one metal layer or it is a mix of multiple layers, the whole interface signal will be considered as a single wire. To minimise possible interference of both channels by one fault none of the interface signals should cross over with the rest of the interface signals.
+    Row 10: A10=Amount of additional β-factor [%] | E10=[F]=SUM(E5:E8)=>0
+    Row 12: A12=Techniques and measures that decrease βB-IC
+    Row 13: B13=Technique/measure | C13=Delta
+β-factor [%] | D13=Remark | E13=additional
+β-factor [%] | F13=yes = 1 no = 0 | G13=Comments
+    Row 14: A14=1a | B14=Diverse measures to control failures in different channels | C14=4 | E14=[F]=C14*F14=>0 | F14=0
+    Row 15: A15=1b | B15=Diversity in function and measures to control failures in different channels | C15=6 | E15=[F]=C15*F15=>0 | F15=0
+    Row 16: A16=2 | B16=Testing the E/E system for
+electromagnetic compatibility with additional safety margin not
+interfering the function of the E/E system | C16=5 | D16=Performance criterion A is described in EMC immunity standards, see for example IEC 61000-6-2 or IEC 61326-3-1. | E16=[F]=C16*F16=>0 | F16=0
+    Row 17: A17=3 | B17=Providing each block with its own power supply pins so that no block is supplied via the power supply of another block (for example via internal connections) and not connecting wells of separate physical blocks inside the IC | C17=6 | D17=External measures have to be taken to avoid dangerous failures that might be caused by different voltages of the wells. | E17=[F]=C17*F17=>0 | F17=0
+    Row 18: A18=4 | B18=Structures that isolate and decouple physical locations | C18=2 - 4 | D18=Useful to decouple separate physical blocks.
+(If applicable: Please write a suitable value 2 - 4 in cell E18) | F18=0
+    Row 19: A19=5 | B19=Ground pin between pin-out of
+separate physical blocks | C19=2 | D19=If not implemented, short circuit between adjacent lines of separate physical blocks shall be carried out to test for effects of tear-off of bond wiring. The β-factor will not be decreased in this case. | E19=[F]=C19*F19=>0 | F19=0
+    Row 20: A20=6a | B20=High diagnostic coverage (DC ≥ 99 %) of each channel, failure detection by the technical process and achievement of safe state in adequate short time | C20=7 | D20=May be appropriate only in exceptional case. | E20=[F]=C20*F20=>0 | F20=0
+    Row 21: A21=6b | B21=Temperature sensors between blocks with permanent shut-down (internal or external) to safe state in adequate short time; low effectiveness without
+diagnostics | C21=2 | D21=See also Table A.18 (IEC61508-2), measures against temperature increase. | E21=[F]=C21*F21=>0 | F21=0
+    Row 22: A22=6c | B22=Temperature sensors between blocks with permanent shut-down (internal or external) to safe state in adequate short time; high effectiveness with
+diagnostics | C22=9 | D22=See also Table A.18 (IEC61508-2), measures against temperature increase. | E22=[F]=C22*F22=>0 | F22=0
+    Row 23: A23=6d | B23=Analysis/test of the effects of faults (for example increase of
+temperature). Depending on the
+result of the analysis/test, comparison between channels,
+including fault detection and achievement of safe state in adequate short time can be required | C23=9 | E23=[F]=C23*F23=>0 | F23=0
+    Row 24: A24=6e | B24=Design of the monitoring circuit
+functional at the increased temperature | C24=7 | D24=The design of the monitoring function (e.g. watch dog) shall carry out the safety function under worst case temperature conditions. | E24=[F]=C24*F24=>0 | F24=0
+    Row 25: A25=Alternate techniques/measures are indicated by a letter following the number. Only one of the alternate techniques/
+measures can be selected.
+Techniques and measures listed in this table are not exhaustive. Other techniques and measures may be used, provided evidence is given to support the claimed delta β-factor.
+NOTE Techniques/measures 6a to 6e aim for controlling effects of temperature rise due to failure.
+    Row 26: A26=Amount of decreasing β-factor [%] | E26=[F]=SUM(E14:E24)=>0
+    Row 28: A28=Basic β-factor βB-IC [%] | E28=33
+    Row 30: A30=Resulting β-factor βIC [%] | E30=[F]=E28+E10-E26=>33
+
+================================================================================
+Sheet: CCF Calc. Logic
+  Dimensions: A1:S61
+  Max row: 61, Max col: 19
+  Sheet state: visible
+  Merged cells (26):
+    A41:I41
+    N5:S5
+    B55:H55
+    A60:H60
+    A21:I21
+    N19:S19
+    O20:P20
+    A32:I32
+    A54:H54
+    B59:H59
+    A4:I4
+    A50:H50
+    A56:H56
+    A10:I10
+    A28:I28
+    A44:I44
+    O13:Q13
+    A48:I48
+    B61:H61
+    O6:Q6
+    B57:H57
+    B53:H53
+    A52:H52
+    A1:I1
+    A58:H58
+    N12:S12
+  Hidden columns: ['D']
+  Formulas (67):
+    F5: =B5*H5  => 0
+    G5: =C5*H5  => 0
+    F6: =B6*H6  => 0
+    G6: =C6*H6  => 0
+    F7: =B7*H7  => 0
+    G7: =C7*H7  => 0
+    F11: =B11*H11  => 0
+    F12: =B12*H12  => 0
+    F15: =B15*H15  => 0
+    G15: =C15*H15  => 0
+    F16: =B16*H16  => 0
+    G16: =C16*H16  => 0
+    F17: =B17*H17  => 0
+    G17: =C17*H17  => 0
+    F18: =B18*H18  => 0
+    G18: =C18*H18  => 0
+    F19: =B19*H19  => 0
+    F20: =B20*H20  => 0
+    F22: =B22*H22  => 0
+    G22: =C22*H22  => 0
+    F23: =B23*H23  => 0
+    G23: =C23*H23  => 0
+    F24: =B24*H24  => 0
+    G24: =C24*H24  => 0
+    G25: =C25*H25  => 0
+    F26: =B26*H26  => 0
+    G26: =C26*H26  => 0
+    F27: =B27*H27  => 0
+    G29: =C29*H29  => 0
+    G30: =C30*H30  => 0
+    F31: =B31*H31  => 0
+    G31: =C31*H31  => 0
+    G33: =C33*H33  => 0
+    F34: =B34*H34  => 0
+    G34: =C34*H34  => 0
+    F35: =B35*H35  => 0
+    G35: =C35*H35  => 0
+    F36: =B36*H36  => 0
+    G36: =C36*H36  => 0
+    F37: =B37*H37  => 0
+    F38: =B38*H38  => 0
+    G38: =C38*H38  => 0
+    F39: =B39*H39  => 0
+    G39: =C39*H39  => 0
+    F42: =B42*H42  => 0
+    G42: =C42*H42  => 0
+    F43: =B43*H43  => 0
+    G43: =C43*H43  => 0
+    F45: =B45*H45  => 0
+    G45: =C45*H45  => 0
+    F46: =B46*H46  => 0
+    G46: =C46*H46  => 0
+    F47: =B47*H47  => 0
+    G47: =C47*H47  => 0
+    F49: =B49*H49  => 0
+    G49: =C49*H49  => 0
+    B51: =SUM(B5:B49)  => 62.5
+    C51: =SUM(C5:C49)  => 50
+    D51: =SUM(D5:D49)  => 55
+    E51: =SUM(E5:E49)  => 46.5
+    F51: =SUM(F5:F49)  => 0
+    G51: =SUM(G5:G49)  => 0
+    H51: =SUM(H5:H49)  => 0
+    B53: =(F51+G51)  => 0
+    B57: =F51*(B55+1)+G51  => 0
+    B59: =IF(B53<45, 5, IF(B53<70, 2, IF(B53<120, 1, 0.5)))  => 5
+    B61: =IF(B57<45, 5, IF(B57<70, 2, IF(B57<120, 1, 0.5)))  => 5
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=Calculation of β-factor according to IEC 61508 Ed. 2 for Logic
+    Row 3: A3=  | B3= XLS | C3= YLS | D3= XSF | E3= YSF | F3=X | G3=Y | H3=yes = 1 no = 0 | I3=Remark
+    Row 4: A4= Separation/segregation
+    Row 5: A5=Are all signal lines for the channels physically separated, for example, crosstalk or channels shorted? | B5=1.5 | C5=1.5 | D5=1 | E5=2 | F5=[F]=B5*H5=>0 | G5=[F]=C5*H5=>0 | H5=0 | N5= IEC 61508 Table D.2 — Value of Z: programmable electronics
+    Row 6: A6=Are the logic subsystem channels on separate printed-circuit boards? | B6=3 | C6=1 | D6=  | E6=  | F6=[F]=B6*H6=>0 | G6=[F]=C6*H6=>0 | H6=0 | O6= Diagnostic test interval
+    Row 7: A7=Are the logic subsystems physically separated in an effective manner? For example, independent Hardware units with separate time base. | B7=2.5 | C7=0.5 | D7=  | E7=  | F7=[F]=B7*H7=>0 | G7=[F]=C7*H7=>0 | H7=0 | N7=Diagnostic  coverage | O7= Less than 1 min | P7= Between 1 and 5 min | Q7= Greater than 5 min
+    Row 8: A8=If the sensors/final elements have dedicated control electronics, is the electronics for the channels physically separated? | B8=- | C8=- | D8=2.5 | E8=1.5 | F8=- | G8=- | H8=- | I8=Only valid for Sensor and final Elements | N8=  99 % | O8=2 | P8=1 | Q8=0
+    Row 9: A9=If the sensors/final elements have dedicated control electronics, is the electronics for each
+channel in an environmentally protected area (e.g. passenger cabin) and in separate enclosures? | B9=- | C9=- | D9=2.5 | E9=0.5 | F9=- | G9=- | H9=- | I9=Only valid for Sensor and final Elements | N9=  90 % | O9=1.5 | P9=0.5 | Q9=0
+    Row 10: A10= Diversity/Redundancy | N10=  60 % | O10=1 | P10=0 | Q10=0
+    Row 11: A11=Do the channels employ different electronical technologies / different circuitries, for example, one channel with logic and one hardwired? | B11=8 | C11=- | F11=[F]=B11*H11=>0 | G11=- | H11=0
+    Row 12: A12=Do the channels employ different electronical technologies / different circuitries, for example, two microcontrollers from different manufacturers? | B12=6 | C12=- | F12=[F]=B12*H12=>0 | G12=- | H12=0 | N12= IEC 61508 Table D.3 — Value of Z: sensors or final elements
+    Row 13: A13=Do the devices employ different physical principles for the sensing elements for example, pressure and temperature, optical and magnetical, etc? | B13=- | C13=- | D13=9 | F13=- | G13=- | H13=- | I13=Only valid for Sensor and final Elements | O13= Diagnostic test interval
+    Row 14: A14=Do the devices employ different electrical principles/designs for example, digital and analogue, different manufacturer (not re-badged) or different technology? | B14=- | C14=- | D14=6.5 | F14=- | G14=- | H14=- | I14=Only valid for Sensor and final Elements | N14=Diagnostic coverage | O14= Less than 2 h | P14= Between 2 h and 2 days | Q14=Between 2 days and 1 week | R14=Greater than 1 week
+    Row 15: A15=Is low diversity used, for example hardware diagnostic tests using the same technology? | B15=2 | C15=1 | D15=  | E15=  | F15=[F]=B15*H15=>0 | G15=[F]=C15*H15=>0 | H15=0 | N15=  99 % | O15=2 | P15=1.5 | Q15=1 | R15=0
+    Row 16: A16=Is medium diversity used, for example hardware diagnostic tests using different technology? | B16=3 | C16=2 | D16=  | E16=  | F16=[F]=B16*H16=>0 | G16=[F]=C16*H16=>0 | H16=0 | N16=  90 % | O16=1.5 | P16=1 | Q16=0.5 | R16=0
+    Row 17: A17=Were the channels designed by different designers with no communication between them
+during the design activities? | B17=1.5 | C17=1.5 | D17=  | E17=  | F17=[F]=B17*H17=>0 | G17=[F]=C17*H17=>0 | H17=0 | N17=  60 % | O17=1 | P17=0.5 | Q17=0 | R17=0
+    Row 18: A18=Are separate test methods and people used for each channel during validation? | B18=1 | C18=0.5 | D18=1 | E18=2 | F18=[F]=B18*H18=>0 | G18=[F]=C18*H18=>0 | H18=0
+    Row 19: A19=Is the system supervised by an external/other system? | B19=1.5 | C19=- | F19=[F]=B19*H19=>0 | G19=- | H19=0 | N19=  IEC 61508 Table D.4 — Calculation of  or D
+    Row 20: A20=Is a different calibration method and separate calibration data for each channel used? | B20=1.5 | C20=- | D20=3 | E20=  | F20=[F]=B20*H20=>0 | G20=- | H20=0 | N20= Score (S or SD) | O20= Corresponding value of b or bD for the:
+    Row 21: A21= Complexity/design/application/maturity/experience | N21=  | O21= Logic subsystem | P21= Sensors or final elements
+    Row 22: A22=Does cross-connection between channels preclude the exchange of any information other than that used for diagnostic testing or voting purposes? | B22=0.5 | C22=0.5 | D22=0.5 | E22=0.5 | F22=[F]=B22*H22=>0 | G22=[F]=C22*H22=>0 | H22=0 | N22= 120 or above | O22=0.005 | P22=0.01
+    Row 23: A23=Is the design based on techniques used in equipment that has been used successfully in the field for > 5 years? | B23=0.5 | C23=1 | D23=1 | E23=1 | F23=[F]=B23*H23=>0 | G23=[F]=C23*H23=>0 | H23=0 | N23= 70 to 120 | O23=0.01 | P23=0.02
+    Row 24: A24=Is there more than 5 years experience with the same hardware used in similar environments? | B24=1 | C24=1.5 | D24=1.5 | E24=1.5 | F24=[F]=B24*H24=>0 | G24=[F]=C24*H24=>0 | H24=0 | N24= 45 to 70 | O24=0.02 | P24=0.05
+    Row 25: A25=Is the system simple, for example no more than 10 inputs or outputs per channel? | B25=- | C25=1 | D25=  | E25=  | F25=- | G25=[F]=C25*H25=>0 | H25=0 | N25= Less than 45 | O25=0.05 | P25=0.1
+    Row 26: A26=Are inputs and outputs protected from potential levels of over-voltage and over-current? | B26=1.5 | C26=0.5 | D26=1.5 | E26=0.5 | F26=[F]=B26*H26=>0 | G26=[F]=C26*H26=>0 | H26=0 | N26= NOTE 1 | O26=The maximum levels of βD shown in this table are lower than would normally be used, reflecting the use of the techniques specified elsewhere in this standard for the reduction in the probability of systematic failures as a whole, and of common cause failures as a result of this.
+    Row 27: A27=Are all devices/components conservatively rated (for example, by a factor of 2 or more)? | B27=2 | C27=- | D27=2 | E27=  | F27=[F]=B27*H27=>0 | G27=- | H27=0 | N27= NOTE 2 | O27=Values of βD lower than 0,5 % for the logic subsystem and 1 % for the sensors would be difficult to justify.
+    Row 28: A28= Assessment/analysis and feedback of data
+    Row 29: A29=Have the results of the failure modes and effects analysis or fault-tree analysis been examined to establish sources of common cause failure and have predetermined sources of common cause failure been eliminated by design? | B29=- | C29=3 | D29=  | E29=3 | F29=- | G29=[F]=C29*H29=>0 | H29=0
+    Row 30: A30=Were common cause failures considered in design reviews with the results fed back into the design? (Documentary evidence of the design review activity is required.) | B30=- | C30=3 | D30=  | E30=3 | F30=- | G30=[F]=C30*H30=>0 | H30=0
+    Row 31: A31=Are all field failures fully analysed with feedback into the design? (Documentary evidence of the procedure is required.) | B31=0.5 | C31=3.5 | D31=0.5 | E31=3.5 | F31=[F]=B31*H31=>0 | G31=[F]=C31*H31=>0 | H31=0
+    Row 32: A32= Procedures/human interface
+    Row 33: A33=Is there a written system of work to ensure that all component failures (or degradations) are detected, the root causes established and other similar items inspected for similar potential causes of failure? | B33=- | C33=1.5 | D33=0.5 | E33=1.5 | F33=- | G33=[F]=C33*H33=>0 | H33=0
+    Row 34: A34=Are procedures in place to ensure that: maintenance (including adjustment or calibration) of any part of the independent channels is staggered, and, in addition to the manual checks carried out following maintenance, the diagnostic tests are allowed to run satisfactorily between the completion of maintenance on one channel and the start of maintenance on another? | B34=1.5 | C34=0.5 | D34=2 | E34=1 | F34=[F]=B34*H34=>0 | G34=[F]=C34*H34=>0 | H34=0
+    Row 35: A35=Do the documented maintenance procedures specify that all parts of redundant systems (for example, cables, etc.) intended to be independent of each other, are not to be relocated? | B35=0.5 | C35=0.5 | D35=0.5 | E35=0.5 | F35=[F]=B35*H35=>0 | G35=[F]=C35*H35=>0 | H35=0
+    Row 36: A36=Is all maintenance of printed-circuit boards, etc. carried out off-site at a qualified repair centre and have all the repaired items gone through a full pre-installation testing? | B36=0.5 | C36=1 | D36=0.5 | E36=1.5 | F36=[F]=B36*H36=>0 | G36=[F]=C36*H36=>0 | H36=0
+    Row 37: A37=Does the system have low diagnostic coverage (60 % to 90 %) and report failures to the
+level of a field-replaceable module? | B37=0.5 | C37=- | D37=  | E37=  | F37=[F]=B37*H37=>0 | G37=- | H37=0
+    Row 38: A38=Does the system have medium diagnostics coverage (90 % to 99 %) and report failures to the level of a field-replaceable module? | B38=1.5 | C38=1 | D38=  | E38=  | F38=[F]=B38*H38=>0 | G38=[F]=C38*H38=>0 | H38=0
+    Row 39: A39=Does the system have high diagnostics coverage (>99 %) and report failures to the level of a field-replaceable module? | B39=2.5 | C39=1.5 | D39=  | E39=  | F39=[F]=B39*H39=>0 | G39=[F]=C39*H39=>0 | H39=0
+    Row 40: A40=Do the system diagnostic tests report failures to the level of a field-replaceable module? | B40=- | C40=- | D40=1 | E40=1 | F40=- | G40=- | H40=- | I40=Only valid for Sensor and final Elements
+    Row 41: A41= Competence/training/safety culture
+    Row 42: A42=Have designers been trained (with training documentation) to understand the causes and
+consequences of common cause failures? | B42=2 | C42=3 | D42=2 | E42=3 | F42=[F]=B42*H42=>0 | G42=[F]=C42*H42=>0 | H42=0
+    Row 43: A43=Have maintainers been trained (with training documentation) to understand the causes and
+consequences of common cause failures? | B43=0.5 | C43=4.5 | D43=0.5 | E43=4.5 | F43=[F]=B43*H43=>0 | G43=[F]=C43*H43=>0 | H43=0
+    Row 44: A44= Environmental control
+    Row 45: A45=Is personnel access limited (for example locked cabinets, inaccessible position)? | B45=0.5 | C45=2.5 | D45=0.5 | E45=2.5 | F45=[F]=B45*H45=>0 | G45=[F]=C45*H45=>0 | H45=0
+    Row 46: A46=Is the system likely to operate always within the range of temperature, humidity, corrosion, dust, vibration, etc., over which it has been tested, without the use of external environmental control? | B46=3 | C46=1 | D46=3 | E46=1 | F46=[F]=B46*H46=>0 | G46=[F]=C46*H46=>0 | H46=0
+    Row 47: A47=Are all signal and power cables separate at all positions? | B47=2 | C47=1 | D47=2 | E47=1 | F47=[F]=B47*H47=>0 | G47=[F]=C47*H47=>0 | H47=0
+    Row 48: A48= Environmental testing
+    Row 49: A49=Has the system been tested for immunity to all relevant environmental influences (for example EMC, temperature, vibration, shock, humidity) to an appropriate level as specified in recognized standards? | B49=10 | C49=10 | D49=10 | E49=10 | F49=[F]=B49*H49=>0 | G49=[F]=C49*H49=>0 | H49=0
+    Row 51: A51=Total | B51=[F]=SUM(B5:B49)=>62.5 | C51=[F]=SUM(C5:C49)=>50 | D51=[F]=SUM(D5:D49)=>55 | E51=[F]=SUM(E5:E49)=>46.5 | F51=[F]=SUM(F5:F49)=>0 | G51=[F]=SUM(G5:G49)=>0 | H51=[F]=SUM(H5:H49)=>0
+    Row 53: A53=Score S = x + y | B53=[F]=(F51+G51)=>0
+    Row 55: A55=Value of z  (0 / 0,5 / 1 / 1,5 / 2 - see table D.2) | B55=1.5
+    Row 57: A57=Score SD = x * (z + 1) + y | B57=[F]=F51*(B55+1)+G51=>0
+    Row 59: A59=b =  | B59=[F]=IF(B53<45, 5, IF(B53<70, 2, IF(B53<120, 1, 0.5)))=>5
+    Row 61: A61=bD = | B61=[F]=IF(B57<45, 5, IF(B57<70, 2, IF(B57<120, 1, 0.5)))=>5
+
+================================================================================
+Sheet: ISO 26262-9 CH.7
+  Dimensions: A1:A35
+  Max row: 35, Max col: 1
+  Sheet state: visible
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=7 Analysis of dependent failures
+    Row 3: A3=7.1 Objectives
+    Row 4: A4=The analysis of dependent failures aims to identify the single events or single causes that could bypass or invalidate a required independence or freedom from interference between given elements and violate a safety requirement or a safety goal.
+    Row 6: A6=7.2 General
+    Row 7: A7=The analysis of dependent failures considers architectural features such as:
+⎯ similar and dissimilar redundant elements;
+⎯ different functions implemented with identical software or hardware elements;
+⎯ functions and their respective safety mechanisms;
+⎯ partitions of functions or software elements;
+⎯ physical distance between hardware elements, with or without barrier;
+⎯ common external resources.
+According to the definitions given in ISO 26262-1, independence is threatened by common cause failures and cascading failures, while freedom from interference is only threatened by cascading failures.
+EXAMPLE 1 A high intensity electromagnetic field that causes different electronic devices to fail in a way that depends on design and use is an example of a common cause failure. Biased vehicle speed information that affects the behaviour of one or more vehicle functions is an example of cascading failures.
+Dependent failures can manifest themselves simultaneously, or within a sufficiently short time interval, to have the effect of simultaneous failures.
+EXAMPLE 2 A monitor designed to detect anomalous behaviour of a function can be rendered inoperative some time before the monitored function fails if both the monitor and the monitored function are subjected to the same event or cause.
+    Row 9: A9=7.3 Inputs to this clause
+    Row 11: A11=7.3.1 Prerequisites
+    Row 12: A12=The following information shall be available:
+⎯ the independence requirements at the level at which they are applied: system, or hardware, or software in accordance with ISO 26262-3:2011, 8.5.1, or ISO 26262-4:2011, 6.5.1, or ISO 26262-5:2011, 6.5.1, or ISO 26262-6:2011, 6.5.1;
+⎯ the freedom from interference requirements at the level at which they are applied: system, or hardware, or software in accordance with ISO 26262-3:2011, 8.5.1, or ISO 26262-4:2011, 6.5.1, or ISO 26262-5:2011, 6.5.1, or ISO 26262-6:2011, 6.5.1; 
+⎯ and the architectural information at the level at which the independence or freedom from interference requirements are to be applied: system, or hardware, or software in accordance with ISO 26262-4:2011, 7.5.2, or ISO 26262-5:2011, 7.5.1, or ISO 26262-6:2011, 7.5.1.
+NOTE The architectural information is used to determine the boundaries of the analyses of dependent failures.
+    Row 14: A14=7.3.2 Further supporting information
+    Row 15: A15=None.
+    Row 17: A17=7.4 Requirements and recommendations
+    Row 19: A19=7.4.1 The potential for dependent failures shall be identified from the results of safety analyses in accordance with Clause 8.
+NOTE 1 Both systematic failures and random hardware failures have the potential to be dependent failures.
+NOTE 2 The identification of potential for dependent failures can be based on deductive analyses: examination of cut sets or repeated identical events of an FTA can indicate potential for dependent failures.
+NOTE 3 The identification can also be supported by inductive analyses: similar parts or components with similar failure modes that appear several times in an FMEA can give additional information about the potential for dependent failures.
+    Row 21: A21=7.4.2 Each identified potential for dependent failures shall be evaluated to determine its plausibility, i.e. if a reasonably foreseeable cause exists which leads to the dependent failure and consequently violates a required independence or freedom from interference between given elements.
+NOTE When quantification of random hardware failures is required, as for the evaluation of the safety goal violations due to random hardware failures (see ISO 26262-5), the contribution of common cause failures is estimated on a qualitative basis because no general and sufficiently reliable method exists for quantifying such failures.
+    Row 23: A23=7.4.3 This evaluation shall consider the operational situations as well as the different operating modes of the item or element being analyzed.
+    Row 25: A25=7.4.4 This evaluation shall consider the following topics as applicable:
+NOTE 1 The evaluation of the potential dependent failures plausibility can be supported by appropriate checklists, e.g. checklists based on field experience. The checklists provide the analysts with representative examples of root causes and coupling factors such as: same design, same process, same component, same interface, proximity. IEC 61508 provides information that can be used as a basis to establish such checklists.
+NOTE 2 This evaluation can also be supported by the adherence to process guidelines which are intended to prevent the introduction of root causes and coupling factors that could lead to dependent failures.
+a) random hardware failures;
+EXAMPLE Failures of common blocks such as clock, test logic and internal voltage regulators in large scale integrated circuits (microcontrollers, ASICs, etc.).
+b) development faults;
+EXAMPLE Requirement faults, design faults, implementation faults, faults resulting from the use of new technologies and faults introduced when making modifications.
+c) manufacturing faults;
+EXAMPLE Faults related to processes, procedures and training; faults in control plans and in monitoring special characteristics; faults related to software flashing and end-of-line programming.
+d) installation faults;
+EXAMPLE Faults related to wiring harness routing; faults related to the inter-changeability of parts; failures of adjacent items or elements.
+e) repair faults;
+EXAMPLE Faults related to processes, procedures and training; faults related to trouble shooting; faults related to the inter-changeability of parts and faults due to backward incompatibility.
+f) environmental factors;
+EXAMPLE Temperature, vibration, pressure, humidity / condensation, pollution, corrosion, contamination, EMC.
+g) failures of common external resources; and
+EXAMPLE Power supply, input data, inter-system data bus and communication.
+h) stress due to specific situations.
+EXAMPLE Wear, ageing.
+    Row 27: A27=7.4.5 Rationale for the plausibility of dependent failures and their impact shall be made available.
+NOTE Plausible dependent failures are those for which the evaluation as given in 7.4.2 has revealed a reasonably foreseeable cause.
+    Row 29: A29=7.4.6 Measures for the resolution of plausible dependent failures shall be specified during the development phase, in accordance with the change management in ISO 26262-8.
+    Row 31: A31=7.4.7 Measures for the resolution of plausible dependent failures shall include the measures for preventing their root causes, or for controlling their effects, or for reducing the coupling factors.
+EXAMPLE Diversity is a measure that can be used to prevent, reduce or detect common cause failures.
+    Row 33: A33=7.5 Work products
+    Row 35: A35=7.5.1 Analysis of dependent failures, resulting from 7.4.
+
+================================================================================
+Sheet: DFI examples
+  Dimensions: A1:J22
+  Max row: 22, Max col: 10
+  Sheet state: visible
+  Merged cells (1):
+    A1:F1
+
+  --- Cell Data (up to 100 rows) ---
+    Row 1: A1=Dependent Failure Indicator classes (see ISO 26262-11  clause 4.7). Please adapt the table to project demands!
+    Row 2: A2=DFI due to shared resources | B2=DFI due to random physical root cause | C2=DFI due to environmental conditions | D2=DFI due to development faults | E2=DFI due to manufacturing faults | F2=DFI due to Installation  faults | G2=DFI due to service  faults | I2=Measure assigned to | J2=Measure status
+    Row 3: A3=no DFI related to shared resources known | B3=no DFI related to random physical root cause known | C3=no DFI related to environmental conditions known | D3=no DFI related to development known | E3=no DFI related to manufacturing faults known | F3=no DFI related to installation faults known | G3=no DFI related to service faults known | I3=IP/SoC  integrator | J3=completed
+    Row 4: A4=Failures in common clock elements (including PLL, clock trees, clock enable signals,etc.) | B4=Short circuits (e.g.: local defects, electro migration, via migration, contact migration, oxide break down) | C4=Temperature | D4=Requirement faults | E4=Related to processes procedures and training | F4=Related to wiring harness routing | I4=IC user | J4=in consideration
+    Row 5: A5=Failures in common test logic including DFT (Design for Test) signals, scan chains etc., common debug logic including debug routing network (network that provides access to analogue or digital signals or enables reading of digital registers) and trace signals (mechanism to trace one or more signals synchronously, e.g. controlled by triggers or trace clocks and read the result afterwards) | B5=Latch up | C5=Vibration | D5=Specification errors | E5=Faults in control plans and in monitoring of special characteristics | F5=Related to the inter-changeability of parts | I5=department… | J5=in progress
+    Row 6: A6=Failures in power supply elements including power distribution network, common voltage regulators, common references (e.g. band-gaps, bias generators and related network) | B6=Cross talk (substrate current, capacitive coupling) | C6=Pressure | D6=Implementation faults, i.e. incorrect implementation of functionality | E6=Related to software flashing and end-of-line programming (e.g. wrong versions or wrong programming conditions, protocols or timings) | F6=Failures of adjacent items or parts or elements. (e.g. wrong configuration of a connected interface delivering data to an input, or incorrect load on a driven output) | I6=department… | J6=rejected
+    Row 7: A7=Non simultaneous supply switch on, that can cause effects like latch up or high inrush current | B7=Local heating caused e.g. by defective voltage regulators or output drivers | C7=Humidity/Condensation | D7=Lack or insufficiency of design measures to avoid crosstalk | E7=Mask misalignment | F7=Wrong PCB connection
+    Row 8: A8=Failures in common reset logic including reset signals | C8=Corrosion | D8=Lack or insufficiency of Latch up prevention measures | E8=Incorrect End-of-Line trimming or fusing (e.g. Laser trimming, OTP or EEPROM programming of calibration coefficients or customization settings) | F8=Wrong configuration (e.g. of spare memory usage)
+    Row 9: A9=Failures in shared modules (e.g. RAM, Flash, ADC, Timers, DMA, | C9=EMI | D9=Wrong configuration
+    Row 10: A10=Interrupt Controller, Busses, etc.) | C10=Overvoltage applied from external | D10=Layout faults, such as incorrect routing e.g. over redundant blocks, insufficient insulation, insufficient separation or isolation, insufficient EMI shielding
+    Row 11: C11=Mechanical stress | D11=Temperature due to heating of power consuming parts of the die Temperature gradients causing mismatches within sensitive measurement circuitry
+    Row 12: C12=Wear
+    Row 13: C13=Aging
+    Row 14: C14=Water and other fluids intrusion
+
+================================================================================
+Named Ranges / Defined Names:
+Traceback (most recent call last):
+  File "/home/ubuntu/analyze_excel.py", line 118, in <module>
+    for dn in wb.defined_names.definedName:
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DefinedNameDict' object has no attribute 'definedName'
