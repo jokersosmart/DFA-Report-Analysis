@@ -44,7 +44,7 @@ const quickLinks = [
   { path: "/flowchart", label: "DFA 流程圖", icon: Workflow, desc: "B1-B12 互動式工作流程" },
   { path: "/dataflow", label: "資料流向圖", icon: GitBranch, desc: "15 個 Sheet 的關聯地圖" },
   { path: "/references", label: "參考文件", icon: Library, desc: "8 份國際標準解讀" },
-  { path: "/platonic", label: "柏拉圖式分析", icon: Lightbulb, desc: "4! 分析法深度思考" },
+  { path: "/platonic", label: "辯證法與提問", icon: Lightbulb, desc: "柏拉圖辯證法 + 蘇格拉底式提問" },
 ];
 
 const containerVariants = {

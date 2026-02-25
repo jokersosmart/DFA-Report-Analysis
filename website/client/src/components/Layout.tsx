@@ -23,7 +23,7 @@ const navSections = [
     items: [
       { path: "/", label: "首頁總覽", icon: Home },
       { path: "/dataflow", label: "資料流向圖", icon: GitBranch },
-      { path: "/platonic", label: "柏拉圖式分析", icon: Lightbulb },
+      { path: "/platonic", label: "辯證法與蘇格拉底式提問", icon: Lightbulb },
     ]
   },
   {
